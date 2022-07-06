@@ -1,0 +1,50 @@
+H2OI95, Version 1.1, Build 118
+
+The header line contains "tempk    press(MPa)"
+
+
+  CALPRE: Temp(K) =  298.1500             tau    =  0.217037062E+01
+          press   =  0.100000000E+00 MPa
+
+     This appears to be liquid.
+
+     CALPRE: iter=   0, px=  3.169929329E-03, sbetmx= -9.68301E-01
+     CALPRE: iter=   1, px=  1.000099349E-01, sbetmx=  9.93490E-05
+     CALPRE: iter=   2, px=  1.000000000E-01, sbetmx=  4.36567E-11
+
+       Temp(K)          press(MPa)
+      298.1500        0.100000000E+00
+
+     WARNING (PMELT): The temperature of 298.150000000K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.309641938E+01   0.997047039E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  298.1500             tau    =  0.217037062E+01
+          press   =  0.101325000E+00 MPa
+
+     This appears to be liquid.
+
+     CALPRE: iter=   0, px=  3.169929329E-03, sbetmx= -9.68715E-01
+     CALPRE: iter=   1, px=  1.013352087E-01, sbetmx=  1.00752E-04
+     CALPRE: iter=   2, px=  1.013250000E-01, sbetmx=  8.44830E-12
+
+       Temp(K)          press(MPa)
+      298.1500        0.101325000E+00
+
+     WARNING (PMELT): The temperature of 298.150000000K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.309642123E+01   0.997047637E+03
+
+----------------------------------------
+
+  Have read 22 lines from the input file.
+  Done.
+

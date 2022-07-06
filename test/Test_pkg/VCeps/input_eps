@@ -1,0 +1,29 @@
+inputeps
+# VCeps
+
+# Calculate results for the dielectric constant to compare
+# with Table 4 and 5 of IAPWS R8-97.
+#
+# The following strings are write option switches.
+
+#showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+
+# Compare with Table 4 results.
+
+    tempk    press(MPa)
+
+  240.000      0.101325
+  300.000      0.101325
+  300.000     10.0
+  300.000   1000.0
+  650.000     10.0
+  650.000    100.0
+  650.000    500.0
+  870.000     10.0
+  870.000    100.0
+  870.000    500.0
+

@@ -1,0 +1,931 @@
+H2OI95, Version 1.1, Build 118
+
+The header line contains "tempk    press(MPa)        rhog(kg/m3)"
+
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.100000000E+05 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  9.606585658E+07, sbetmx=  3.84263E+06
+     CALPRE: iter=   1, px=  3.163902761E+07, sbetmx=  1.26556E+06
+     CALPRE: iter=   2, px=  1.051871301E+07, sbetmx=  4.20748E+05
+     CALPRE: iter=   3, px=  3.249900067E+06, sbetmx=  1.29995E+05
+     CALPRE: iter=   4, px=  9.635631246E+05, sbetmx=  3.85415E+04
+     CALPRE: iter=   5, px=  3.202500810E+05, sbetmx=  1.28090E+04
+     CALPRE: iter=   6, px=  1.220069966E+05, sbetmx=  4.87928E+03
+     CALPRE: iter=   7, px=  4.729547416E+04, sbetmx=  1.89082E+03
+     CALPRE: iter=   8, px=  1.345007983E+04, sbetmx=  5.37003E+02
+     CALPRE: iter=   9, px=  4.092268305E+03, sbetmx=  1.62691E+02
+     CALPRE: iter=  10, px=  1.301146857E+03, sbetmx=  5.10459E+01
+     CALPRE: iter=  11, px=  4.189321924E+02, sbetmx=  1.57573E+01
+     CALPRE: iter=  12, px=  1.469198036E+02, sbetmx=  4.87679E+00
+     CALPRE: iter=  13, px=  6.198848237E+01, sbetmx=  1.47954E+00
+     CALPRE: iter=  14, px=  3.534044222E+01, sbetmx=  4.13618E-01
+     CALPRE: iter=  15, px=  2.724285009E+01, sbetmx=  8.97140E-02
+     CALPRE: iter=  16, px=  2.523192954E+01, sbetmx=  9.27718E-03
+     CALPRE: iter=  17, px=  2.500352483E+01, sbetmx=  1.40993E-04
+     CALPRE: iter=  18, px=  2.500000085E+01, sbetmx=  3.41934E-08
+     CALPRE: iter=  19, px=  2.500000000E+01, sbetmx=  2.70006E-15
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.500000000E+04 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  3.010578955E+06, sbetmx=  1.20422E+05
+     CALPRE: iter=   1, px=  8.967073737E+05, sbetmx=  3.58673E+04
+     CALPRE: iter=   2, px=  3.005149360E+05, sbetmx=  1.20196E+04
+     CALPRE: iter=   3, px=  1.153670714E+05, sbetmx=  4.61368E+03
+     CALPRE: iter=   4, px=  4.416162596E+04, sbetmx=  1.76547E+03
+     CALPRE: iter=   5, px=  1.248058160E+04, sbetmx=  4.98223E+02
+     CALPRE: iter=   6, px=  3.815514182E+03, sbetmx=  1.51621E+02
+     CALPRE: iter=   7, px=  1.214151723E+03, sbetmx=  4.75661E+01
+     CALPRE: iter=   8, px=  3.918242526E+02, sbetmx=  1.46730E+01
+     CALPRE: iter=   9, px=  1.385382066E+02, sbetmx=  4.54153E+00
+     CALPRE: iter=  10, px=  5.935216889E+01, sbetmx=  1.37409E+00
+     CALPRE: iter=  11, px=  3.452002136E+01, sbetmx=  3.80801E-01
+     CALPRE: iter=  12, px=  2.701189860E+01, sbetmx=  8.04759E-02
+     CALPRE: iter=  13, px=  2.519322040E+01, sbetmx=  7.72882E-03
+     CALPRE: iter=  14, px=  2.500246634E+01, sbetmx=  9.86534E-05
+     CALPRE: iter=  15, px=  2.500000042E+01, sbetmx=  1.67444E-08
+     CALPRE: iter=  16, px=  2.500000000E+01, sbetmx=  0.00000E+00
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.200000000E+04 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.336898081E+04, sbetmx=  9.33759E+02
+     CALPRE: iter=   1, px=  6.801798233E+03, sbetmx=  2.71072E+02
+     CALPRE: iter=   2, px=  2.138642396E+03, sbetmx=  8.45457E+01
+     CALPRE: iter=   3, px=  6.829822370E+02, sbetmx=  2.63193E+01
+     CALPRE: iter=   4, px=  2.280253994E+02, sbetmx=  8.12102E+00
+     CALPRE: iter=   5, px=  8.748595725E+01, sbetmx=  2.49944E+00
+     CALPRE: iter=   6, px=  4.331596089E+01, sbetmx=  7.32638E-01
+     CALPRE: iter=   7, px=  2.958914669E+01, sbetmx=  1.83566E-01
+     CALPRE: iter=   8, px=  2.572065280E+01, sbetmx=  2.88261E-02
+     CALPRE: iter=   9, px=  2.503087973E+01, sbetmx=  1.23519E-03
+     CALPRE: iter=  10, px=  2.500006522E+01, sbetmx=  2.60869E-06
+     CALPRE: iter=  11, px=  2.500000000E+01, sbetmx=  1.17089E-11
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.110000000E+04 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  1.157734259E+03, sbetmx=  4.53094E+01
+     CALPRE: iter=   1, px=  3.742889161E+02, sbetmx=  1.39716E+01
+     CALPRE: iter=   2, px=  1.331071848E+02, sbetmx=  4.32429E+00
+     CALPRE: iter=   3, px=  5.764423942E+01, sbetmx=  1.30577E+00
+     CALPRE: iter=   4, px=  3.398936789E+01, sbetmx=  3.59575E-01
+     CALPRE: iter=   5, px=  2.686420283E+01, sbetmx=  7.45681E-02
+     CALPRE: iter=   6, px=  2.516972744E+01, sbetmx=  6.78910E-03
+     CALPRE: iter=   7, px=  2.500191249E+01, sbetmx=  7.64997E-05
+     CALPRE: iter=   8, px=  2.500000025E+01, sbetmx=  1.00697E-08
+     CALPRE: iter=   9, px=  2.500000000E+01, sbetmx=  2.84217E-15
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.100000000E+04 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  6.658160484E+02, sbetmx=  2.56326E+01
+     CALPRE: iter=   1, px=  2.227652389E+02, sbetmx=  7.91061E+00
+     CALPRE: iter=   2, px=  8.583495505E+01, sbetmx=  2.43340E+00
+     CALPRE: iter=   3, px=  4.279835235E+01, sbetmx=  7.11934E-01
+     CALPRE: iter=   4, px=  2.943323300E+01, sbetmx=  1.77329E-01
+     CALPRE: iter=   5, px=  2.568424730E+01, sbetmx=  2.73699E-02
+     CALPRE: iter=   6, px=  2.502803222E+01, sbetmx=  1.12129E-03
+     CALPRE: iter=   7, px=  2.500005378E+01, sbetmx=  2.15109E-06
+     CALPRE: iter=   8, px=  2.500000000E+01, sbetmx=  7.96376E-12
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.900000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  3.494864538E+02, sbetmx=  1.29795E+01
+     CALPRE: iter=   1, px=  1.254120765E+02, sbetmx=  4.01648E+00
+     CALPRE: iter=   2, px=  5.522487903E+01, sbetmx=  1.20900E+00
+     CALPRE: iter=   3, px=  3.323908863E+01, sbetmx=  3.29564E-01
+     CALPRE: iter=   4, px=  2.665798582E+01, sbetmx=  6.63194E-02
+     CALPRE: iter=   5, px=  2.513872956E+01, sbetmx=  5.54918E-03
+     CALPRE: iter=   6, px=  2.500128613E+01, sbetmx=  5.14453E-05
+     CALPRE: iter=   7, px=  2.500000011E+01, sbetmx=  4.55460E-09
+     CALPRE: iter=   8, px=  2.500000000E+01, sbetmx= -1.42109E-16
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.800000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  1.648554200E+02, sbetmx=  5.59422E+00
+     CALPRE: iter=   1, px=  6.763090977E+01, sbetmx=  1.70524E+00
+     CALPRE: iter=   2, px=  3.710040188E+01, sbetmx=  4.84016E-01
+     CALPRE: iter=   3, px=  2.774708510E+01, sbetmx=  1.09883E-01
+     CALPRE: iter=   4, px=  2.532378623E+01, sbetmx=  1.29514E-02
+     CALPRE: iter=   5, px=  2.500674063E+01, sbetmx=  2.69625E-04
+     CALPRE: iter=   6, px=  2.500000312E+01, sbetmx=  1.24957E-07
+     CALPRE: iter=   7, px=  2.500000000E+01, sbetmx=  2.40163E-14
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.700000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  7.083092974E+01, sbetmx=  1.83324E+00
+     CALPRE: iter=   1, px=  3.810030934E+01, sbetmx=  5.24012E-01
+     CALPRE: iter=   2, px=  2.803789851E+01, sbetmx=  1.21516E-01
+     CALPRE: iter=   3, px=  2.538071878E+01, sbetmx=  1.52288E-02
+     CALPRE: iter=   4, px=  2.500921210E+01, sbetmx=  3.68484E-04
+     CALPRE: iter=   5, px=  2.500000583E+01, sbetmx=  2.33262E-07
+     CALPRE: iter=   6, px=  2.500000000E+01, sbetmx=  9.93339E-14
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.600000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  3.180792125E+01, sbetmx=  2.72317E-01
+     CALPRE: iter=   1, px=  2.627500546E+01, sbetmx=  5.10002E-02
+     CALPRE: iter=   2, px=  2.508745051E+01, sbetmx=  3.49802E-03
+     CALPRE: iter=   3, px=  2.500051669E+01, sbetmx=  2.06677E-05
+     CALPRE: iter=   4, px=  2.500000002E+01, sbetmx=  7.35218E-10
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.500000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.080696923E+01, sbetmx= -1.67721E-01
+     CALPRE: iter=   1, px=  2.412590726E+01, sbetmx= -3.49637E-02
+     CALPRE: iter=   2, px=  2.506499302E+01, sbetmx=  2.59972E-03
+     CALPRE: iter=   3, px=  2.500028677E+01, sbetmx=  1.14710E-05
+     CALPRE: iter=   4, px=  2.500000001E+01, sbetmx=  2.26497E-10
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.442515000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  1.986543638E+01, sbetmx= -2.05383E-01
+     CALPRE: iter=   1, px=  2.039134444E+01, sbetmx= -1.84346E-01
+     CALPRE: iter=   2, px=  2.280913657E+01, sbetmx= -8.76345E-02
+     CALPRE: iter=   3, px=  2.562783722E+01, sbetmx=  2.51135E-02
+     CALPRE: iter=   4, px=  2.502385777E+01, sbetmx=  9.54311E-04
+     CALPRE: iter=   5, px=  2.500003899E+01, sbetmx=  1.55955E-06
+     CALPRE: iter=   6, px=  2.500000000E+01, sbetmx=  4.18808E-12
+
+       Temp(K)          press(MPa)
+      640.0000        0.250000000E+02
+
+     WARNING (PMELT): The temperature of 640.000000000K is out of range.
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.173285631E+01   0.557979731E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.442514000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  1.986543638E+01, sbetmx= -2.05383E-01
+     CALPRE: iter=   1, px=  2.024682767E+01, sbetmx= -1.90127E-01
+     CALPRE: iter=   2, px=  1.997517276E+01, sbetmx= -2.00993E-01
+     CALPRE: iter=   3, px=  2.024183280E+01, sbetmx= -1.90327E-01
+     CALPRE: iter=   4, px=  2.039872275E+01, sbetmx= -1.84051E-01
+     CALPRE: iter=   5, px=  2.044912970E+01, sbetmx= -1.82035E-01
+     CALPRE: iter=   6, px=  2.040495042E+01, sbetmx= -1.83802E-01
+     CALPRE: iter=   7, px=  1.944231250E+01, sbetmx= -2.22308E-01
+     CALPRE: iter=   8, px=  1.985283818E+01, sbetmx= -2.05886E-01
+     CALPRE: iter=   9, px=  2.015854085E+01, sbetmx= -1.93658E-01
+     CALPRE: iter=  10, px=  2.035489031E+01, sbetmx= -1.85804E-01
+     CALPRE: iter=  11, px=  2.044273833E+01, sbetmx= -1.82290E-01
+     CALPRE: iter=  12, px=  2.043047496E+01, sbetmx= -1.82781E-01
+     CALPRE: iter=  13, px=  1.927055319E+01, sbetmx= -2.29178E-01
+     CALPRE: iter=  14, px=  1.971691362E+01, sbetmx= -2.11323E-01
+     CALPRE: iter=  15, px=  2.006105732E+01, sbetmx= -1.97558E-01
+     CALPRE: iter=  16, px=  2.029695627E+01, sbetmx= -1.88122E-01
+     CALPRE: iter=  17, px=  2.042330128E+01, sbetmx= -1.83068E-01
+     CALPRE: iter=  18, px=  2.044548254E+01, sbetmx= -1.82181E-01
+     CALPRE: iter=  19, px=  1.908675306E+01, sbetmx= -2.36530E-01
+     CALPRE: iter=  20, px=  1.956774047E+01, sbetmx= -2.17290E-01
+     CALPRE: iter=  21, px=  1.994953189E+01, sbetmx= -2.02019E-01
+     CALPRE: iter=  22, px=  2.022479198E+01, sbetmx= -1.91008E-01
+     CALPRE: iter=  23, px=  2.039030946E+01, sbetmx= -1.84388E-01
+     CALPRE: iter=  24, px=  2.044881341E+01, sbetmx= -1.82047E-01
+     CALPRE: iter=  25, px=  2.041137361E+01, sbetmx= -1.83545E-01
+     CALPRE: iter=  26, px=  1.940571311E+01, sbetmx= -2.23771E-01
+     CALPRE: iter=  27, px=  1.982419174E+01, sbetmx= -2.07032E-01
+     CALPRE: iter=  28, px=  2.013838034E+01, sbetmx= -1.94465E-01
+     CALPRE: iter=  29, px=  2.034340270E+01, sbetmx= -1.86264E-01
+     CALPRE: iter=  30, px=  2.043961383E+01, sbetmx= -1.82415E-01
+     CALPRE: iter=  31, px=  2.043471116E+01, sbetmx= -1.82612E-01
+     CALPRE: iter=  32, px=  1.923127229E+01, sbetmx= -2.30749E-01
+     CALPRE: iter=  33, px=  1.968533155E+01, sbetmx= -2.12587E-01
+     CALPRE: iter=  34, px=  2.003780276E+01, sbetmx= -1.98488E-01
+     CALPRE: iter=  35, px=  2.028235591E+01, sbetmx= -1.88706E-01
+     CALPRE: iter=  36, px=  2.041724333E+01, sbetmx= -1.83310E-01
+     CALPRE: iter=  37, px=  2.044724577E+01, sbetmx= -1.82110E-01
+     CALPRE: iter=  38, px=  1.904489937E+01, sbetmx= -2.38204E-01
+     CALPRE: iter=  39, px=  1.953330492E+01, sbetmx= -2.18668E-01
+     CALPRE: iter=  40, px=  1.992322681E+01, sbetmx= -2.03071E-01
+     CALPRE: iter=  41, px=  2.020706603E+01, sbetmx= -1.91717E-01
+     CALPRE: iter=  42, px=  2.038122689E+01, sbetmx= -1.84751E-01
+     CALPRE: iter=  43, px=  2.044789411E+01, sbetmx= -1.82084E-01
+     CALPRE: iter=  44, px=  2.041734649E+01, sbetmx= -1.83306E-01
+     CALPRE: iter=  45, px=  1.936851695E+01, sbetmx= -2.25259E-01
+     CALPRE: iter=  46, px=  1.979489529E+01, sbetmx= -2.08204E-01
+     CALPRE: iter=  47, px=  2.011753867E+01, sbetmx= -1.95298E-01
+     CALPRE: iter=  48, px=  2.033123505E+01, sbetmx= -1.86751E-01
+     CALPRE: iter=  49, px=  2.043585570E+01, sbetmx= -1.82566E-01
+     CALPRE: iter=  50, px=  2.043842667E+01, sbetmx= -1.82463E-01
+     CALPRE: iter=  51, px=  1.919141778E+01, sbetmx= -2.32343E-01
+     CALPRE: iter=  52, px=  1.965311648E+01, sbetmx= -2.13875E-01
+     CALPRE: iter=  53, px=  2.001387513E+01, sbetmx= -1.99445E-01
+     CALPRE: iter=  54, px=  2.026707060E+01, sbetmx= -1.89317E-01
+     CALPRE: iter=  55, px=  2.041052899E+01, sbetmx= -1.83579E-01
+     CALPRE: iter=  56, px=  2.044843667E+01, sbetmx= -1.82063E-01
+     CALPRE: iter=  57, px=  1.900249692E+01, sbetmx= -2.39900E-01
+     CALPRE: iter=  58, px=  1.949825588E+01, sbetmx= -2.20070E-01
+     CALPRE: iter=  59, px=  1.989626038E+01, sbetmx= -2.04150E-01
+     CALPRE: iter=  60, px=  2.018865546E+01, sbetmx= -1.92454E-01
+     CALPRE: iter=  61, px=  2.037147214E+01, sbetmx= -1.85141E-01
+     CALPRE: iter=  62, px=  2.044636434E+01, sbetmx= -1.82145E-01
+     CALPRE: iter=  63, px=  2.042285181E+01, sbetmx= -1.83086E-01
+     CALPRE: iter=  64, px=  1.933072896E+01, sbetmx= -2.26771E-01
+     CALPRE: iter=  65, px=  1.976495233E+01, sbetmx= -2.09402E-01
+     CALPRE: iter=  66, px=  2.009601729E+01, sbetmx= -1.96159E-01
+     CALPRE: iter=  67, px=  2.031838579E+01, sbetmx= -1.87265E-01
+     CALPRE: iter=  68, px=  2.043145832E+01, sbetmx= -1.82742E-01
+     CALPRE: iter=  69, px=  2.044160871E+01, sbetmx= -1.82336E-01
+     CALPRE: iter=  70, px=  1.915099497E+01, sbetmx= -2.33960E-01
+     CALPRE: iter=  71, px=  1.962027250E+01, sbetmx= -2.15189E-01
+     CALPRE: iter=  72, px=  1.998927672E+01, sbetmx= -2.00429E-01
+     CALPRE: iter=  73, px=  2.025109998E+01, sbetmx= -1.89956E-01
+     CALPRE: iter=  74, px=  2.040315422E+01, sbetmx= -1.83874E-01
+     CALPRE: iter=  75, px=  2.044904590E+01, sbetmx= -1.82038E-01
+     CALPRE: iter=  76, px=  1.895955138E+01, sbetmx= -2.41618E-01
+     CALPRE: iter=  77, px=  1.946259791E+01, sbetmx= -2.21496E-01
+     CALPRE: iter=  78, px=  1.986863558E+01, sbetmx= -2.05255E-01
+     CALPRE: iter=  79, px=  2.016956095E+01, sbetmx= -1.93218E-01
+     CALPRE: iter=  80, px=  2.036104263E+01, sbetmx= -1.85558E-01
+
+  CALPRE: HAVE DONE THE MAXIMUM NUMBER OF ITERATIONS.
+
+  CALPRE: ITERATION FAILED.
+
+
+     WARNING (H2OI95): CALCULATION FAILED. NO
+        RESULTS WERE OBTAINED.
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.400000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.012880233E+01, sbetmx= -1.94848E-01
+     CALPRE: iter=   1, px=  2.037674644E+01, sbetmx= -1.84930E-01
+     CALPRE: iter=   2, px=  1.957597318E+01, sbetmx= -2.16961E-01
+     CALPRE: iter=   3, px=  1.995579194E+01, sbetmx= -2.01768E-01
+     CALPRE: iter=   4, px=  2.022897466E+01, sbetmx= -1.90841E-01
+     CALPRE: iter=   5, px=  2.039240473E+01, sbetmx= -1.84304E-01
+     CALPRE: iter=   6, px=  2.044894485E+01, sbetmx= -1.82042E-01
+     CALPRE: iter=   7, px=  2.040986131E+01, sbetmx= -1.83606E-01
+     CALPRE: iter=   8, px=  1.941461643E+01, sbetmx= -2.23415E-01
+     CALPRE: iter=   9, px=  1.983117714E+01, sbetmx= -2.06753E-01
+     CALPRE: iter=  10, px=  2.014331693E+01, sbetmx= -1.94267E-01
+     CALPRE: iter=  11, px=  2.034624227E+01, sbetmx= -1.86150E-01
+     CALPRE: iter=  12, px=  2.044042708E+01, sbetmx= -1.82383E-01
+     CALPRE: iter=  13, px=  2.043373422E+01, sbetmx= -1.82651E-01
+     CALPRE: iter=  14, px=  1.924082180E+01, sbetmx= -2.30367E-01
+     CALPRE: iter=  15, px=  1.969302515E+01, sbetmx= -2.12279E-01
+     CALPRE: iter=  16, px=  2.004348666E+01, sbetmx= -1.98261E-01
+     CALPRE: iter=  17, px=  2.028594853E+01, sbetmx= -1.88562E-01
+     CALPRE: iter=  18, px=  2.041876793E+01, sbetmx= -1.83249E-01
+     CALPRE: iter=  19, px=  2.044687157E+01, sbetmx= -1.82125E-01
+     CALPRE: iter=  20, px=  1.905506863E+01, sbetmx= -2.37797E-01
+     CALPRE: iter=  21, px=  1.954168663E+01, sbetmx= -2.18333E-01
+     CALPRE: iter=  22, px=  1.992964718E+01, sbetmx= -2.02814E-01
+     CALPRE: iter=  23, px=  2.021141431E+01, sbetmx= -1.91543E-01
+     CALPRE: iter=  24, px=  2.038348424E+01, sbetmx= -1.84661E-01
+     CALPRE: iter=  25, px=  2.044817204E+01, sbetmx= -1.82073E-01
+     CALPRE: iter=  26, px=  2.041594467E+01, sbetmx= -1.83362E-01
+     CALPRE: iter=  27, px=  1.937756411E+01, sbetmx= -2.24897E-01
+     CALPRE: iter=  28, px=  1.980203753E+01, sbetmx= -2.07918E-01
+     CALPRE: iter=  29, px=  2.012263981E+01, sbetmx= -1.95094E-01
+     CALPRE: iter=  30, px=  2.033423918E+01, sbetmx= -1.86630E-01
+     CALPRE: iter=  31, px=  2.043682267E+01, sbetmx= -1.82527E-01
+     CALPRE: iter=  32, px=  2.043757682E+01, sbetmx= -1.82497E-01
+     CALPRE: iter=  33, px=  1.920110548E+01, sbetmx= -2.31956E-01
+     CALPRE: iter=  34, px=  1.966096275E+01, sbetmx= -2.13561E-01
+     CALPRE: iter=  35, px=  2.001972156E+01, sbetmx= -1.99211E-01
+     CALPRE: iter=  36, px=  2.027082886E+01, sbetmx= -1.89167E-01
+     CALPRE: iter=  37, px=  2.041221267E+01, sbetmx= -1.83511E-01
+     CALPRE: iter=  38, px=  2.044820172E+01, sbetmx= -1.82072E-01
+     CALPRE: iter=  39, px=  1.901279833E+01, sbetmx= -2.39488E-01
+     CALPRE: iter=  40, px=  1.950678549E+01, sbetmx= -2.19729E-01
+     CALPRE: iter=  41, px=  1.990284037E+01, sbetmx= -2.03886E-01
+     CALPRE: iter=  42, px=  2.019316920E+01, sbetmx= -1.92273E-01
+     CALPRE: iter=  43, px=  2.037389225E+01, sbetmx= -1.85044E-01
+     CALPRE: iter=  44, px=  2.044679052E+01, sbetmx= -1.82128E-01
+     CALPRE: iter=  45, px=  2.042156456E+01, sbetmx= -1.83137E-01
+     CALPRE: iter=  46, px=  1.933991875E+01, sbetmx= -2.26403E-01
+     CALPRE: iter=  47, px=  1.977225054E+01, sbetmx= -2.09110E-01
+     CALPRE: iter=  48, px=  2.010128262E+01, sbetmx= -1.95949E-01
+     CALPRE: iter=  49, px=  2.032155483E+01, sbetmx= -1.87138E-01
+     CALPRE: iter=  50, px=  2.043258033E+01, sbetmx= -1.82697E-01
+     CALPRE: iter=  51, px=  2.044088896E+01, sbetmx= -1.82364E-01
+     CALPRE: iter=  52, px=  1.916081958E+01, sbetmx= -2.33567E-01
+     CALPRE: iter=  53, px=  1.962827043E+01, sbetmx= -2.14869E-01
+     CALPRE: iter=  54, px=  1.999528510E+01, sbetmx= -2.00189E-01
+     CALPRE: iter=  55, px=  2.025502394E+01, sbetmx= -1.89799E-01
+     CALPRE: iter=  56, px=  2.040499792E+01, sbetmx= -1.83800E-01
+     CALPRE: iter=  57, px=  2.044895240E+01, sbetmx= -1.82042E-01
+     CALPRE: iter=  58, px=  1.896998357E+01, sbetmx= -2.41201E-01
+     CALPRE: iter=  59, px=  1.947127431E+01, sbetmx= -2.21149E-01
+     CALPRE: iter=  60, px=  1.987537446E+01, sbetmx= -2.04985E-01
+     CALPRE: iter=  61, px=  2.017423997E+01, sbetmx= -1.93030E-01
+     CALPRE: iter=  62, px=  2.036362609E+01, sbetmx= -1.85455E-01
+     CALPRE: iter=  63, px=  2.044479317E+01, sbetmx= -1.82208E-01
+     CALPRE: iter=  64, px=  2.042670450E+01, sbetmx= -1.82932E-01
+     CALPRE: iter=  65, px=  1.930168534E+01, sbetmx= -2.27933E-01
+     CALPRE: iter=  66, px=  1.974181980E+01, sbetmx= -2.10327E-01
+     CALPRE: iter=  67, px=  2.007924692E+01, sbetmx= -1.96830E-01
+     CALPRE: iter=  68, px=  2.030818789E+01, sbetmx= -1.87672E-01
+     CALPRE: iter=  69, px=  2.042769472E+01, sbetmx= -1.82892E-01
+     CALPRE: iter=  70, px=  2.044365854E+01, sbetmx= -1.82254E-01
+     CALPRE: iter=  71, px=  1.911996947E+01, sbetmx= -2.35201E-01
+     CALPRE: iter=  72, px=  1.959495237E+01, sbetmx= -2.16202E-01
+     CALPRE: iter=  73, px=  1.997017969E+01, sbetmx= -2.01193E-01
+     CALPRE: iter=  74, px=  2.023853361E+01, sbetmx= -1.90459E-01
+     CALPRE: iter=  75, px=  2.039711990E+01, sbetmx= -1.84115E-01
+     CALPRE: iter=  76, px=  2.044911474E+01, sbetmx= -1.82035E-01
+     CALPRE: iter=  77, px=  2.040624913E+01, sbetmx= -1.83750E-01
+     CALPRE: iter=  78, px=  1.943515774E+01, sbetmx= -2.22594E-01
+     CALPRE: iter=  79, px=  1.984725257E+01, sbetmx= -2.06110E-01
+     CALPRE: iter=  80, px=  2.015462749E+01, sbetmx= -1.93815E-01
+
+  CALPRE: HAVE DONE THE MAXIMUM NUMBER OF ITERATIONS.
+
+  CALPRE: ITERATION FAILED.
+
+
+     WARNING (H2OI95): CALCULATION FAILED. NO
+        RESULTS WERE OBTAINED.
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.300000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.012548496E+01, sbetmx= -1.94981E-01
+     CALPRE: iter=   1, px=  2.029707975E+01, sbetmx= -1.88117E-01
+     CALPRE: iter=   2, px=  2.042335090E+01, sbetmx= -1.83066E-01
+     CALPRE: iter=   3, px=  2.044546480E+01, sbetmx= -1.82181E-01
+     CALPRE: iter=   4, px=  1.908711318E+01, sbetmx= -2.36515E-01
+     CALPRE: iter=   5, px=  1.956803606E+01, sbetmx= -2.17279E-01
+     CALPRE: iter=   6, px=  1.994975685E+01, sbetmx= -2.02010E-01
+     CALPRE: iter=   7, px=  2.022494252E+01, sbetmx= -1.91002E-01
+     CALPRE: iter=   8, px=  2.039038521E+01, sbetmx= -1.84385E-01
+     CALPRE: iter=   9, px=  2.044881873E+01, sbetmx= -1.82047E-01
+     CALPRE: iter=  10, px=  2.041131988E+01, sbetmx= -1.83547E-01
+     CALPRE: iter=  11, px=  1.940603270E+01, sbetmx= -2.23759E-01
+     CALPRE: iter=  12, px=  1.982444267E+01, sbetmx= -2.07022E-01
+     CALPRE: iter=  13, px=  2.013855790E+01, sbetmx= -1.94458E-01
+     CALPRE: iter=  14, px=  2.034350513E+01, sbetmx= -1.86260E-01
+     CALPRE: iter=  15, px=  2.043964361E+01, sbetmx= -1.82414E-01
+     CALPRE: iter=  16, px=  2.043467669E+01, sbetmx= -1.82613E-01
+     CALPRE: iter=  17, px=  1.923161501E+01, sbetmx= -2.30735E-01
+     CALPRE: iter=  18, px=  1.968560783E+01, sbetmx= -2.12576E-01
+     CALPRE: iter=  19, px=  2.003800708E+01, sbetmx= -1.98480E-01
+     CALPRE: iter=  20, px=  2.028248532E+01, sbetmx= -1.88701E-01
+     CALPRE: iter=  21, px=  2.041729861E+01, sbetmx= -1.83308E-01
+     CALPRE: iter=  22, px=  2.044723294E+01, sbetmx= -1.82111E-01
+     CALPRE: iter=  23, px=  1.904526427E+01, sbetmx= -2.38189E-01
+     CALPRE: iter=  24, px=  1.953360584E+01, sbetmx= -2.18656E-01
+     CALPRE: iter=  25, px=  1.992345751E+01, sbetmx= -2.03062E-01
+     CALPRE: iter=  26, px=  2.020722252E+01, sbetmx= -1.91711E-01
+     CALPRE: iter=  27, px=  2.038130845E+01, sbetmx= -1.84748E-01
+     CALPRE: iter=  28, px=  2.044790468E+01, sbetmx= -1.82084E-01
+     CALPRE: iter=  29, px=  2.041729673E+01, sbetmx= -1.83308E-01
+     CALPRE: iter=  30, px=  1.936884169E+01, sbetmx= -2.25246E-01
+     CALPRE: iter=  31, px=  1.979515183E+01, sbetmx= -2.08194E-01
+     CALPRE: iter=  32, px=  2.011772212E+01, sbetmx= -1.95291E-01
+     CALPRE: iter=  33, px=  2.033134337E+01, sbetmx= -1.86746E-01
+     CALPRE: iter=  34, px=  2.043589099E+01, sbetmx= -1.82564E-01
+     CALPRE: iter=  35, px=  2.043839676E+01, sbetmx= -1.82464E-01
+     CALPRE: iter=  36, px=  1.919176544E+01, sbetmx= -2.32329E-01
+     CALPRE: iter=  37, px=  1.965339823E+01, sbetmx= -2.13864E-01
+     CALPRE: iter=  38, px=  2.001408528E+01, sbetmx= -1.99437E-01
+     CALPRE: iter=  39, px=  2.026720594E+01, sbetmx= -1.89312E-01
+     CALPRE: iter=  40, px=  2.041058998E+01, sbetmx= -1.83576E-01
+     CALPRE: iter=  41, px=  2.044842883E+01, sbetmx= -1.82063E-01
+     CALPRE: iter=  42, px=  1.900286655E+01, sbetmx= -2.39885E-01
+     CALPRE: iter=  43, px=  1.949856209E+01, sbetmx= -2.20058E-01
+     CALPRE: iter=  44, px=  1.989649679E+01, sbetmx= -2.04140E-01
+     CALPRE: iter=  45, px=  2.018881787E+01, sbetmx= -1.92447E-01
+     CALPRE: iter=  46, px=  2.037155953E+01, sbetmx= -1.85138E-01
+     CALPRE: iter=  47, px=  2.044638023E+01, sbetmx= -1.82145E-01
+     CALPRE: iter=  48, px=  2.042280617E+01, sbetmx= -1.83088E-01
+     CALPRE: iter=  49, px=  1.933105881E+01, sbetmx= -2.26758E-01
+     CALPRE: iter=  50, px=  1.976521446E+01, sbetmx= -2.09391E-01
+     CALPRE: iter=  51, px=  2.009620662E+01, sbetmx= -1.96152E-01
+     CALPRE: iter=  52, px=  2.031850002E+01, sbetmx= -1.87260E-01
+     CALPRE: iter=  53, px=  2.043149917E+01, sbetmx= -1.82740E-01
+     CALPRE: iter=  54, px=  2.044158348E+01, sbetmx= -1.82337E-01
+     CALPRE: iter=  55, px=  1.915134754E+01, sbetmx= -2.33946E-01
+     CALPRE: iter=  56, px=  1.962055968E+01, sbetmx= -2.15178E-01
+     CALPRE: iter=  57, px=  1.998949266E+01, sbetmx= -2.00420E-01
+     CALPRE: iter=  58, px=  2.025124126E+01, sbetmx= -1.89950E-01
+     CALPRE: iter=  59, px=  2.040322095E+01, sbetmx= -1.83871E-01
+     CALPRE: iter=  60, px=  2.044904315E+01, sbetmx= -1.82038E-01
+     CALPRE: iter=  61, px=  1.895992569E+01, sbetmx= -2.41603E-01
+     CALPRE: iter=  62, px=  1.946290938E+01, sbetmx= -2.21484E-01
+     CALPRE: iter=  63, px=  1.986887769E+01, sbetmx= -2.05245E-01
+     CALPRE: iter=  64, px=  2.016972928E+01, sbetmx= -1.93211E-01
+     CALPRE: iter=  65, px=  2.036113587E+01, sbetmx= -1.85555E-01
+     CALPRE: iter=  66, px=  2.044423835E+01, sbetmx= -1.82230E-01
+     CALPRE: iter=  67, px=  2.042783199E+01, sbetmx= -1.82887E-01
+     CALPRE: iter=  68, px=  1.929268905E+01, sbetmx= -2.28292E-01
+     CALPRE: iter=  69, px=  1.973463418E+01, sbetmx= -2.10615E-01
+     CALPRE: iter=  70, px=  2.007401301E+01, sbetmx= -1.97039E-01
+     CALPRE: iter=  71, px=  2.030497379E+01, sbetmx= -1.87801E-01
+     CALPRE: iter=  72, px=  2.042646288E+01, sbetmx= -1.82941E-01
+     CALPRE: iter=  73, px=  2.044422494E+01, sbetmx= -1.82231E-01
+     CALPRE: iter=  74, px=  1.911036668E+01, sbetmx= -2.35585E-01
+     CALPRE: iter=  75, px=  1.958709636E+01, sbetmx= -2.16516E-01
+     CALPRE: iter=  76, px=  1.996423168E+01, sbetmx= -2.01431E-01
+     CALPRE: iter=  77, px=  2.023459116E+01, sbetmx= -1.90616E-01
+     CALPRE: iter=  78, px=  2.039518781E+01, sbetmx= -1.84192E-01
+     CALPRE: iter=  79, px=  2.044906713E+01, sbetmx= -1.82037E-01
+     CALPRE: iter=  80, px=  2.040776569E+01, sbetmx= -1.83689E-01
+
+  CALPRE: HAVE DONE THE MAXIMUM NUMBER OF ITERATIONS.
+
+  CALPRE: ITERATION FAILED.
+
+
+     WARNING (H2OI95): CALCULATION FAILED. NO
+        RESULTS WERE OBTAINED.
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.200000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.043042770E+01, sbetmx= -1.82783E-01
+     CALPRE: iter=   1, px=  2.044222269E+01, sbetmx= -1.82311E-01
+     CALPRE: iter=   2, px=  1.914222052E+01, sbetmx= -2.34311E-01
+     CALPRE: iter=   3, px=  1.961312127E+01, sbetmx= -2.15475E-01
+     CALPRE: iter=   4, px=  1.998389464E+01, sbetmx= -2.00644E-01
+     CALPRE: iter=   5, px=  2.024757281E+01, sbetmx= -1.90097E-01
+     CALPRE: iter=   6, px=  2.040148013E+01, sbetmx= -1.83941E-01
+     CALPRE: iter=   7, px=  2.044910011E+01, sbetmx= -1.82036E-01
+     CALPRE: iter=   8, px=  1.895023726E+01, sbetmx= -2.41991E-01
+     CALPRE: iter=   9, px=  1.945484366E+01, sbetmx= -2.21806E-01
+     CALPRE: iter=  10, px=  1.986260379E+01, sbetmx= -2.05496E-01
+     CALPRE: iter=  11, px=  2.016536167E+01, sbetmx= -1.93386E-01
+     CALPRE: iter=  12, px=  2.035870929E+01, sbetmx= -1.85652E-01
+     CALPRE: iter=  13, px=  2.044367350E+01, sbetmx= -1.82253E-01
+     CALPRE: iter=  14, px=  2.042888946E+01, sbetmx= -1.82844E-01
+     CALPRE: iter=  15, px=  1.928401805E+01, sbetmx= -2.28639E-01
+     CALPRE: iter=  16, px=  1.972769945E+01, sbetmx= -2.10892E-01
+     CALPRE: iter=  17, px=  2.006895107E+01, sbetmx= -1.97242E-01
+     CALPRE: iter=  18, px=  2.030185156E+01, sbetmx= -1.87926E-01
+     CALPRE: iter=  19, px=  2.042524643E+01, sbetmx= -1.82990E-01
+     CALPRE: iter=  20, px=  2.044474052E+01, sbetmx= -1.82210E-01
+     CALPRE: iter=  21, px=  1.910111437E+01, sbetmx= -2.35955E-01
+     CALPRE: iter=  22, px=  1.957951866E+01, sbetmx= -2.16819E-01
+     CALPRE: iter=  23, px=  1.995848436E+01, sbetmx= -2.01661E-01
+     CALPRE: iter=  24, px=  2.023076925E+01, sbetmx= -1.90769E-01
+     CALPRE: iter=  25, px=  2.039329782E+01, sbetmx= -1.84268E-01
+     CALPRE: iter=  26, px=  2.044899076E+01, sbetmx= -1.82040E-01
+     CALPRE: iter=  27, px=  2.040919989E+01, sbetmx= -1.83632E-01
+     CALPRE: iter=  28, px=  1.941845200E+01, sbetmx= -2.23262E-01
+     CALPRE: iter=  29, px=  1.983418319E+01, sbetmx= -2.06633E-01
+     CALPRE: iter=  30, px=  2.014543729E+01, sbetmx= -1.94183E-01
+     CALPRE: iter=  31, px=  2.034745671E+01, sbetmx= -1.86102E-01
+     CALPRE: iter=  32, px=  2.044076698E+01, sbetmx= -1.82369E-01
+     CALPRE: iter=  33, px=  2.043330280E+01, sbetmx= -1.82668E-01
+     CALPRE: iter=  34, px=  1.924493695E+01, sbetmx= -2.30203E-01
+     CALPRE: iter=  35, px=  1.969633745E+01, sbetmx= -2.12147E-01
+     CALPRE: iter=  36, px=  2.004593003E+01, sbetmx= -1.98163E-01
+     CALPRE: iter=  37, px=  2.028748821E+01, sbetmx= -1.88500E-01
+     CALPRE: iter=  38, px=  2.041941473E+01, sbetmx= -1.83223E-01
+     CALPRE: iter=  39, px=  2.044669960E+01, sbetmx= -1.82132E-01
+     CALPRE: iter=  40, px=  1.905945197E+01, sbetmx= -2.37622E-01
+     CALPRE: iter=  41, px=  1.954529655E+01, sbetmx= -2.18188E-01
+     CALPRE: iter=  42, px=  1.993240892E+01, sbetmx= -2.02704E-01
+     CALPRE: iter=  43, px=  2.021328046E+01, sbetmx= -1.91469E-01
+     CALPRE: iter=  44, px=  2.038444731E+01, sbetmx= -1.84622E-01
+     CALPRE: iter=  45, px=  2.044828110E+01, sbetmx= -1.82069E-01
+     CALPRE: iter=  46, px=  2.041533067E+01, sbetmx= -1.83387E-01
+     CALPRE: iter=  47, px=  1.938146190E+01, sbetmx= -2.24742E-01
+     CALPRE: iter=  48, px=  1.980511139E+01, sbetmx= -2.07796E-01
+     CALPRE: iter=  49, px=  2.012483129E+01, sbetmx= -1.95007E-01
+     CALPRE: iter=  50, px=  2.033552469E+01, sbetmx= -1.86579E-01
+     CALPRE: iter=  51, px=  2.043722887E+01, sbetmx= -1.82511E-01
+     CALPRE: iter=  52, px=  2.043720006E+01, sbetmx= -1.82512E-01
+     CALPRE: iter=  53, px=  1.920528043E+01, sbetmx= -2.31789E-01
+     CALPRE: iter=  54, px=  1.966434108E+01, sbetmx= -2.13426E-01
+     CALPRE: iter=  55, px=  2.002223517E+01, sbetmx= -1.99111E-01
+     CALPRE: iter=  56, px=  2.027244009E+01, sbetmx= -1.89102E-01
+     CALPRE: iter=  57, px=  2.041292811E+01, sbetmx= -1.83483E-01
+     CALPRE: iter=  58, px=  2.044808973E+01, sbetmx= -1.82076E-01
+     CALPRE: iter=  59, px=  1.901723887E+01, sbetmx= -2.39310E-01
+     CALPRE: iter=  60, px=  1.951045939E+01, sbetmx= -2.19582E-01
+     CALPRE: iter=  61, px=  1.990567112E+01, sbetmx= -2.03773E-01
+     CALPRE: iter=  62, px=  2.019510684E+01, sbetmx= -1.92196E-01
+     CALPRE: iter=  63, px=  2.037492558E+01, sbetmx= -1.85003E-01
+     CALPRE: iter=  64, px=  2.044696350E+01, sbetmx= -1.82121E-01
+     CALPRE: iter=  65, px=  2.042099975E+01, sbetmx= -1.83160E-01
+     CALPRE: iter=  66, px=  1.934387825E+01, sbetmx= -2.26245E-01
+     CALPRE: iter=  67, px=  1.977539185E+01, sbetmx= -2.08984E-01
+     CALPRE: iter=  68, px=  2.010354506E+01, sbetmx= -1.95858E-01
+     CALPRE: iter=  69, px=  2.032291157E+01, sbetmx= -1.87084E-01
+     CALPRE: iter=  70, px=  2.043305342E+01, sbetmx= -1.82678E-01
+     CALPRE: iter=  71, px=  2.044056819E+01, sbetmx= -1.82377E-01
+     CALPRE: iter=  72, px=  1.916505377E+01, sbetmx= -2.33398E-01
+     CALPRE: iter=  73, px=  1.963171436E+01, sbetmx= -2.14731E-01
+     CALPRE: iter=  74, px=  1.999786873E+01, sbetmx= -2.00085E-01
+     CALPRE: iter=  75, px=  2.025670676E+01, sbetmx= -1.89732E-01
+     CALPRE: iter=  76, px=  2.040578243E+01, sbetmx= -1.83769E-01
+     CALPRE: iter=  77, px=  2.044890136E+01, sbetmx= -1.82044E-01
+     CALPRE: iter=  78, px=  1.897448071E+01, sbetmx= -2.41021E-01
+     CALPRE: iter=  79, px=  1.947501171E+01, sbetmx= -2.21000E-01
+     CALPRE: iter=  80, px=  1.987827391E+01, sbetmx= -2.04869E-01
+
+  CALPRE: HAVE DONE THE MAXIMUM NUMBER OF ITERATIONS.
+
+  CALPRE: ITERATION FAILED.
+
+
+     WARNING (H2OI95): CALCULATION FAILED. NO
+        RESULTS WERE OBTAINED.
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.100000000E+03 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  1.730072761E+01, sbetmx= -3.07971E-01
+     CALPRE: iter=   1, px=  1.800014698E+01, sbetmx= -2.79994E-01
+     CALPRE: iter=   2, px=  1.863325626E+01, sbetmx= -2.54670E-01
+     CALPRE: iter=   3, px=  1.918696704E+01, sbetmx= -2.32521E-01
+     CALPRE: iter=   4, px=  1.964950844E+01, sbetmx= -2.14020E-01
+     CALPRE: iter=   5, px=  2.001118276E+01, sbetmx= -1.99553E-01
+     CALPRE: iter=   6, px=  2.026533490E+01, sbetmx= -1.89387E-01
+     CALPRE: iter=   7, px=  2.040974451E+01, sbetmx= -1.83610E-01
+     CALPRE: iter=   8, px=  2.044853298E+01, sbetmx= -1.82059E-01
+     CALPRE: iter=   9, px=  1.899776543E+01, sbetmx= -2.40089E-01
+     CALPRE: iter=  10, px=  1.949433507E+01, sbetmx= -2.20227E-01
+     CALPRE: iter=  11, px=  1.989323207E+01, sbetmx= -2.04271E-01
+     CALPRE: iter=  12, px=  2.018657356E+01, sbetmx= -1.92537E-01
+     CALPRE: iter=  13, px=  2.037034989E+01, sbetmx= -1.85186E-01
+     CALPRE: iter=  14, px=  2.044615698E+01, sbetmx= -1.82154E-01
+     CALPRE: iter=  15, px=  2.042343228E+01, sbetmx= -1.83063E-01
+     CALPRE: iter=  16, px=  1.932650605E+01, sbetmx= -2.26940E-01
+     CALPRE: iter=  17, px=  1.976159518E+01, sbetmx= -2.09536E-01
+     CALPRE: iter=  18, px=  2.009359107E+01, sbetmx= -1.96256E-01
+     CALPRE: iter=  19, px=  2.031692016E+01, sbetmx= -1.87323E-01
+     CALPRE: iter=  20, px=  2.043093154E+01, sbetmx= -1.82763E-01
+     CALPRE: iter=  21, px=  2.044192792E+01, sbetmx= -1.82323E-01
+     CALPRE: iter=  22, px=  1.914648160E+01, sbetmx= -2.34141E-01
+     CALPRE: iter=  23, px=  1.961659503E+01, sbetmx= -2.15336E-01
+     CALPRE: iter=  24, px=  1.998651017E+01, sbetmx= -2.00540E-01
+     CALPRE: iter=  25, px=  2.024928835E+01, sbetmx= -1.90028E-01
+     CALPRE: iter=  26, px=  2.040229633E+01, sbetmx= -1.83908E-01
+     CALPRE: iter=  27, px=  2.044907723E+01, sbetmx= -1.82037E-01
+     CALPRE: iter=  28, px=  1.895476007E+01, sbetmx= -2.41810E-01
+     CALPRE: iter=  29, px=  1.945860992E+01, sbetmx= -2.21656E-01
+     CALPRE: iter=  30, px=  1.986553452E+01, sbetmx= -2.05379E-01
+     CALPRE: iter=  31, px=  2.016740334E+01, sbetmx= -1.93304E-01
+     CALPRE: iter=  32, px=  2.035984547E+01, sbetmx= -1.85606E-01
+     CALPRE: iter=  33, px=  2.044394089E+01, sbetmx= -1.82242E-01
+     CALPRE: iter=  34, px=  2.042839930E+01, sbetmx= -1.82864E-01
+     CALPRE: iter=  35, px=  1.928806652E+01, sbetmx= -2.28477E-01
+     CALPRE: iter=  36, px=  1.973093835E+01, sbetmx= -2.10762E-01
+     CALPRE: iter=  37, px=  2.007131658E+01, sbetmx= -1.97147E-01
+     CALPRE: iter=  38, px=  2.030331229E+01, sbetmx= -1.87868E-01
+     CALPRE: iter=  39, px=  2.042581793E+01, sbetmx= -1.82967E-01
+     CALPRE: iter=  40, px=  2.044450349E+01, sbetmx= -1.82220E-01
+     CALPRE: iter=  41, px=  1.910543386E+01, sbetmx= -2.35783E-01
+     CALPRE: iter=  42, px=  1.958305737E+01, sbetmx= -2.16678E-01
+     CALPRE: iter=  43, px=  1.996116952E+01, sbetmx= -2.01553E-01
+     CALPRE: iter=  44, px=  2.023255637E+01, sbetmx= -1.90698E-01
+     CALPRE: iter=  45, px=  2.039418363E+01, sbetmx= -1.84233E-01
+     CALPRE: iter=  46, px=  2.044903013E+01, sbetmx= -1.82039E-01
+     CALPRE: iter=  47, px=  2.040853362E+01, sbetmx= -1.83659E-01
+     CALPRE: iter=  48, px=  1.942228105E+01, sbetmx= -2.23109E-01
+     CALPRE: iter=  49, px=  1.983718213E+01, sbetmx= -2.06513E-01
+     CALPRE: iter=  50, px=  2.014755021E+01, sbetmx= -1.94098E-01
+     CALPRE: iter=  51, px=  2.034866375E+01, sbetmx= -1.86053E-01
+     CALPRE: iter=  52, px=  2.044109999E+01, sbetmx= -1.82356E-01
+     CALPRE: iter=  53, px=  2.043286575E+01, sbetmx= -1.82685E-01
+     CALPRE: iter=  54, px=  1.924904583E+01, sbetmx= -2.30038E-01
+     CALPRE: iter=  55, px=  1.969964283E+01, sbetmx= -2.12014E-01
+     CALPRE: iter=  56, px=  2.004836604E+01, sbetmx= -1.98065E-01
+     CALPRE: iter=  57, px=  2.028902042E+01, sbetmx= -1.88439E-01
+     CALPRE: iter=  58, px=  2.042005438E+01, sbetmx= -1.83198E-01
+     CALPRE: iter=  59, px=  2.044652142E+01, sbetmx= -1.82139E-01
+     CALPRE: iter=  60, px=  1.906382930E+01, sbetmx= -2.37447E-01
+     CALPRE: iter=  61, px=  1.954889976E+01, sbetmx= -2.18044E-01
+     CALPRE: iter=  62, px=  1.993516343E+01, sbetmx= -2.02593E-01
+     CALPRE: iter=  63, px=  2.021513914E+01, sbetmx= -1.91394E-01
+     CALPRE: iter=  64, px=  2.038540305E+01, sbetmx= -1.84584E-01
+     CALPRE: iter=  65, px=  2.044838353E+01, sbetmx= -1.82065E-01
+     CALPRE: iter=  66, px=  2.041471163E+01, sbetmx= -1.83412E-01
+     CALPRE: iter=  67, px=  1.938535322E+01, sbetmx= -2.24586E-01
+     CALPRE: iter=  68, px=  1.980817818E+01, sbetmx= -2.07673E-01
+     CALPRE: iter=  69, px=  2.012701535E+01, sbetmx= -1.94919E-01
+     CALPRE: iter=  70, px=  2.033680277E+01, sbetmx= -1.86528E-01
+     CALPRE: iter=  71, px=  2.043762813E+01, sbetmx= -1.82495E-01
+     CALPRE: iter=  72, px=  2.043681754E+01, sbetmx= -1.82527E-01
+     CALPRE: iter=  73, px=  1.920944916E+01, sbetmx= -2.31622E-01
+     CALPRE: iter=  74, px=  1.966771253E+01, sbetmx= -2.13291E-01
+     CALPRE: iter=  75, px=  2.002474146E+01, sbetmx= -1.99010E-01
+     CALPRE: iter=  76, px=  2.027404385E+01, sbetmx= -1.89038E-01
+     CALPRE: iter=  77, px=  2.041363637E+01, sbetmx= -1.83455E-01
+     CALPRE: iter=  78, px=  2.044797144E+01, sbetmx= -1.82081E-01
+     CALPRE: iter=  79, px=  1.902167346E+01, sbetmx= -2.39133E-01
+     CALPRE: iter=  80, px=  1.951412663E+01, sbetmx= -2.19435E-01
+
+  CALPRE: HAVE DONE THE MAXIMUM NUMBER OF ITERATIONS.
+
+  CALPRE: ITERATION FAILED.
+
+
+     WARNING (H2OI95): CALCULATION FAILED. NO
+        RESULTS WERE OBTAINED.
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  640.0000             tau    =  0.101108750E+01
+          press   =  0.250000000E+02 MPa
+
+          rhog   =  0.100000000E+02 kg/m3 (starting value)
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.816683166E+00, sbetmx= -8.87333E-01
+     CALPRE: iter=   1, px=  3.083273907E+00, sbetmx= -8.76669E-01
+     CALPRE: iter=   2, px=  3.373365985E+00, sbetmx= -8.65065E-01
+     CALPRE: iter=   3, px=  3.688652500E+00, sbetmx= -8.52454E-01
+     CALPRE: iter=   4, px=  4.030861318E+00, sbetmx= -8.38766E-01
+     CALPRE: iter=   5, px=  4.401732030E+00, sbetmx= -8.23931E-01
+     CALPRE: iter=   6, px=  4.802985851E+00, sbetmx= -8.07881E-01
+     CALPRE: iter=   7, px=  5.236287125E+00, sbetmx= -7.90549E-01
+     CALPRE: iter=   8, px=  5.703194973E+00, sbetmx= -7.71872E-01
+     CALPRE: iter=   9, px=  6.205103557E+00, sbetmx= -7.51796E-01
+     CALPRE: iter=  10, px=  6.743169447E+00, sbetmx= -7.30273E-01
+     CALPRE: iter=  11, px=  7.318224726E+00, sbetmx= -7.07271E-01
+     CALPRE: iter=  12, px=  7.930674818E+00, sbetmx= -6.82773E-01
+     CALPRE: iter=  13, px=  8.580380635E+00, sbetmx= -6.56785E-01
+     CALPRE: iter=  14, px=  9.266525676E+00, sbetmx= -6.29339E-01
+     CALPRE: iter=  15, px=  9.987470171E+00, sbetmx= -6.00501E-01
+     CALPRE: iter=  16, px=  1.074059648E+01, sbetmx= -5.70376E-01
+     CALPRE: iter=  17, px=  1.152215272E+01, sbetmx= -5.39114E-01
+     CALPRE: iter=  18, px=  1.232710490E+01, sbetmx= -5.06916E-01
+     CALPRE: iter=  19, px=  1.314901197E+01, sbetmx= -4.74040E-01
+     CALPRE: iter=  20, px=  1.397994188E+01, sbetmx= -4.40802E-01
+     CALPRE: iter=  21, px=  1.481045020E+01, sbetmx= -4.07582E-01
+     CALPRE: iter=  22, px=  1.562964429E+01, sbetmx= -3.74814E-01
+     CALPRE: iter=  23, px=  1.642535388E+01, sbetmx= -3.42986E-01
+     CALPRE: iter=  24, px=  1.718442214E+01, sbetmx= -3.12623E-01
+     CALPRE: iter=  25, px=  1.789311880E+01, sbetmx= -2.84275E-01
+     CALPRE: iter=  26, px=  1.853766083E+01, sbetmx= -2.58494E-01
+     CALPRE: iter=  27, px=  1.910481346E+01, sbetmx= -2.35807E-01
+     CALPRE: iter=  28, px=  1.958254922E+01, sbetmx= -2.16698E-01
+     CALPRE: iter=  29, px=  1.996078407E+01, sbetmx= -2.01569E-01
+     CALPRE: iter=  30, px=  2.023230000E+01, sbetmx= -1.90708E-01
+     CALPRE: iter=  31, px=  2.039405678E+01, sbetmx= -1.84238E-01
+     CALPRE: iter=  32, px=  2.044902487E+01, sbetmx= -1.82039E-01
+     CALPRE: iter=  33, px=  2.040862967E+01, sbetmx= -1.83655E-01
+     CALPRE: iter=  34, px=  1.942173116E+01, sbetmx= -2.23131E-01
+     CALPRE: iter=  35, px=  1.983675157E+01, sbetmx= -2.06530E-01
+     CALPRE: iter=  36, px=  2.014724701E+01, sbetmx= -1.94110E-01
+     CALPRE: iter=  37, px=  2.034849074E+01, sbetmx= -1.86060E-01
+     CALPRE: iter=  38, px=  2.044105256E+01, sbetmx= -1.82358E-01
+     CALPRE: iter=  39, px=  2.043292890E+01, sbetmx= -1.82683E-01
+     CALPRE: iter=  40, px=  1.924845571E+01, sbetmx= -2.30062E-01
+     CALPRE: iter=  41, px=  1.969916822E+01, sbetmx= -2.12033E-01
+     CALPRE: iter=  42, px=  2.004801640E+01, sbetmx= -1.98079E-01
+     CALPRE: iter=  43, px=  2.028880068E+01, sbetmx= -1.88448E-01
+     CALPRE: iter=  44, px=  2.041996289E+01, sbetmx= -1.83201E-01
+     CALPRE: iter=  45, px=  2.044654741E+01, sbetmx= -1.82138E-01
+     CALPRE: iter=  46, px=  1.906320058E+01, sbetmx= -2.37472E-01
+     CALPRE: iter=  47, px=  1.954838234E+01, sbetmx= -2.18065E-01
+     CALPRE: iter=  48, px=  1.993476801E+01, sbetmx= -2.02609E-01
+     CALPRE: iter=  49, px=  2.021487248E+01, sbetmx= -1.91405E-01
+     CALPRE: iter=  50, px=  2.038526615E+01, sbetmx= -1.84589E-01
+     CALPRE: iter=  51, px=  2.044836922E+01, sbetmx= -1.82065E-01
+     CALPRE: iter=  52, px=  2.041480091E+01, sbetmx= -1.83408E-01
+     CALPRE: iter=  53, px=  1.938479438E+01, sbetmx= -2.24608E-01
+     CALPRE: iter=  54, px=  1.980773787E+01, sbetmx= -2.07690E-01
+     CALPRE: iter=  55, px=  2.012670192E+01, sbetmx= -1.94932E-01
+     CALPRE: iter=  56, px=  2.033661955E+01, sbetmx= -1.86535E-01
+     CALPRE: iter=  57, px=  2.043757118E+01, sbetmx= -1.82497E-01
+     CALPRE: iter=  58, px=  2.043687287E+01, sbetmx= -1.82525E-01
+     CALPRE: iter=  59, px=  1.920885044E+01, sbetmx= -2.31646E-01
+     CALPRE: iter=  60, px=  1.966722842E+01, sbetmx= -2.13311E-01
+     CALPRE: iter=  61, px=  2.002438172E+01, sbetmx= -1.99025E-01
+     CALPRE: iter=  62, px=  2.027381383E+01, sbetmx= -1.89047E-01
+     CALPRE: iter=  63, px=  2.041353503E+01, sbetmx= -1.83459E-01
+     CALPRE: iter=  64, px=  2.044798882E+01, sbetmx= -1.82080E-01
+     CALPRE: iter=  65, px=  1.902103651E+01, sbetmx= -2.39159E-01
+     CALPRE: iter=  66, px=  1.951360000E+01, sbetmx= -2.19456E-01
+     CALPRE: iter=  67, px=  1.990808933E+01, sbetmx= -2.03676E-01
+     CALPRE: iter=  68, px=  2.019676009E+01, sbetmx= -1.92130E-01
+     CALPRE: iter=  69, px=  2.037580457E+01, sbetmx= -1.84968E-01
+     CALPRE: iter=  70, px=  2.044710628E+01, sbetmx= -1.82116E-01
+     CALPRE: iter=  71, px=  2.042051197E+01, sbetmx= -1.83180E-01
+     CALPRE: iter=  72, px=  1.934726361E+01, sbetmx= -2.26109E-01
+     CALPRE: iter=  73, px=  1.977807612E+01, sbetmx= -2.08877E-01
+     CALPRE: iter=  74, px=  2.010547647E+01, sbetmx= -1.95781E-01
+     CALPRE: iter=  75, px=  2.032406740E+01, sbetmx= -1.87037E-01
+     CALPRE: iter=  76, px=  2.043345295E+01, sbetmx= -1.82662E-01
+     CALPRE: iter=  77, px=  2.044028883E+01, sbetmx= -1.82388E-01
+     CALPRE: iter=  78, px=  1.916867455E+01, sbetmx= -2.33253E-01
+     CALPRE: iter=  79, px=  1.963465792E+01, sbetmx= -2.14614E-01
+     CALPRE: iter=  80, px=  2.000007524E+01, sbetmx= -1.99997E-01
+
+  CALPRE: HAVE DONE THE MAXIMUM NUMBER OF ITERATIONS.
+
+  CALPRE: ITERATION FAILED.
+
+
+     WARNING (H2OI95): CALCULATION FAILED. NO
+        RESULTS WERE OBTAINED.
+
+----------------------------------------
+
+  Have read 44 lines from the input file.
+  Done.
+

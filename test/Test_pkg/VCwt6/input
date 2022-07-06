@@ -1,0 +1,40 @@
+input_wt6
+# VCwt6
+
+# Compare results with Table 6 of IAPWS (2016), "Revised Release
+# on the IAPWS Formulation 1995 for the Thermodynamic Properties
+# of Ordinary Water Substance for General and Scientific Use".
+# This document is available from the iapws.org web site as
+# document IAPWS R6-95 (IAPWS95-2016.pdf). The purpose is to
+# validate the calculation of the phi functions, for 500K and
+# a density of 838.0250 kg/m3. Running the software with
+# with "showphi" causes the phi functions to be written on the
+# output. Density must be specified in kg/m3, not g/cm3.
+
+# The contents of Table 6 from IAPWS (2016) partially duplicate
+# Table 6.6 of Wagner and Pruss (2002). The latter table also
+# includes a test at 647K and density of 358 kg/m3. Our results
+# for phir, phird, and phirdd not precisely match theirs for
+# these conditions. We believe it likely that IAPWS (2016)
+# dropped this part of the original test for a reason, though
+# they do not give one. This close to the critical point, minor
+# differences may result from differences in  numerical methods
+# and tolerances. Results may also be compared with results
+# (for liquid) from Table 13.1 of Wagner and Pruss (2002).
+# However, their results are given to less precision.
+
+# For the case at 500K and density of 838.0250 kg/m3, the result
+# for phi0 given by Wagner and Pruss (2002) is off by one in the
+# last decimal place from the value given by IAPWS (2016).
+
+# The following strings are write option switches.
+
+ showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+    tempk    rho(kg/m3)
+  500.000   0.8380250d+03
+  647.000   0.3580000d+03
+

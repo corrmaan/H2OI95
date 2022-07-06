@@ -1,0 +1,567 @@
+ H2OI95, Version 1.1, Build 118
+
+ inputeps
+ # VCeps
+ 
+ # Calculate results for the dielectric constant to compare
+ # with Table 4 and 5 of IAPWS R8-97.
+ #
+ # The following strings are write option switches.
+ 
+ #showphi
+ #showdetails1
+ #showdetails2
+ #showdetails3
+ 
+ 
+ # Compare with Table 4 results.
+ 
+ The header line contains "tempk    press(MPa)"
+
+
+      WARNING (H2OI95): Temp =  240.0000 K. This is outside
+         the nominal range of the IAPWS-95 model. Continuing.
+
+   CALPRE: Temp(K) =  240.0000             tau    =  0.269623333E+01
+           press   =  0.101325000E+00 MPa
+
+
+      WARNING (FDESCR): Temperature is too low to assign
+         a description to the H2O fluid.
+
+      WARNING (CALPRE): The H2O fluid type could not be determined.
+         A good starting estimate of density could not be established.
+      This appears to be unknown.
+
+      CALPRE: iter=   0, px=  1.088927506E+03, sbetmx=  1.07459E+04
+      CALPRE: iter=   1, px=  2.458881200E+02, sbetmx=  2.42573E+03
+      CALPRE: iter=   2, px=  6.002705378E+01, sbetmx=  5.91421E+02
+      CALPRE: iter=   3, px=  8.789176112E+00, sbetmx=  8.57424E+01
+      CALPRE: iter=   4, px=  2.857844997E-01, sbetmx=  1.82047E+00
+      CALPRE: iter=   5, px=  1.014161399E-01, sbetmx=  8.99481E-04
+      CALPRE: iter=   6, px=  1.013250001E-01, sbetmx=  1.19479E-09
+      CALPRE: iter=   7, px=  1.013250000E-01, sbetmx=  3.97747E-10
+
+        Temp(K)          press(MPa)
+       240.0000        0.101325000E+00
+
+      WARNING (PMELT): The temperature of 240.000000000K is out of range.
+
+      WARNING (VISCOS): Outside the range of validity
+          of the viscosity model
+
+      WARNING (THCOND): Outside the range of validity
+         of the thermal conductivity model
+
+       H2O(unknown)
+
+                delta           rho(kg/m3)
+           0.304004903E+01   0.978895788E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+          -0.146856584E+03  -0.146753074E+03  -0.574123688E+00
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.906689847E+01  -0.896338898E+01   0.102155920E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.417523999E+01   0.506970373E+01   0.117846280E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.288800409E-03   0.146413251E-05  -0.872976672E-04
+
+               av(/K)            kt(/MPa)
+          -0.180513812E-02   0.893167511E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -233.5367        -290.3640          52.9918
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -229.8688        -286.6961      1.84037E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               4175.2400        5069.7037       2.63768E-08
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  300.0000             tau    =  0.215698667E+01
+           press   =  0.101325000E+00 MPa
+
+      This appears to be liquid.
+
+      CALPRE: iter=   0, px=  3.536806755E-03, sbetmx= -9.65094E-01
+      CALPRE: iter=   1, px=  1.013351436E-01, sbetmx=  1.00110E-04
+      CALPRE: iter=   2, px=  1.013250000E-01, sbetmx=  2.44139E-11
+
+        Temp(K)          press(MPa)
+       300.0000        0.101325000E+00
+
+      WARNING (PMELT): The temperature of 300.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.309489731E+01   0.996556935E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.112553225E+03   0.112654900E+03   0.393062068E+00
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.536539595E+01  -0.526372088E+01   0.100345496E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.413017424E+01   0.418063578E+01   0.150152265E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.220236507E-03   0.920728619E-06   0.197879811E-04
+
+               av(/K)            kt(/MPa)
+           0.274805032E-03   0.450513769E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -237.2701        -285.6907          70.4159
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -233.6022        -282.0227      1.80775E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               4130.1742        4180.6358       1.65872E-08
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  300.0000             tau    =  0.215698667E+01
+           press   =  0.100000000E+02 MPa
+
+      This appears to be liquid.
+
+      CALPRE: iter=   0, px=  3.536806755E-03, sbetmx= -9.99646E-01
+      CALPRE: iter=   1, px=  1.010682271E+01, sbetmx=  1.06823E-02
+      CALPRE: iter=   2, px=  1.000001188E+01, sbetmx=  1.18776E-06
+      CALPRE: iter=   3, px=  1.000000000E+01, sbetmx=  1.52127E-12
+
+        Temp(K)          press(MPa)
+       300.0000        0.100000000E+02
+
+      WARNING (PMELT): The temperature of 300.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.310855599E+01   0.100095503E+04
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.111743822E+03   0.121734281E+03   0.390290191E+00
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.534323486E+01   0.464722395E+01   0.999045881E-03
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.409839601E+01   0.415362518E+01   0.151816256E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.219993724E-03   0.913771469E-06   0.205301173E-04
+
+               av(/K)            kt(/MPa)
+           0.284519505E-03   0.439301074E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -237.0916        -285.5271          70.3660
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -233.6018        -282.0373      1.79981E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               4098.3960        4153.6252       1.64618E-08
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  300.0000             tau    =  0.215698667E+01
+           press   =  0.100000000E+04 MPa
+
+      This appears to be compressed liquid.
+
+      CALPRE: iter=   0, px=  2.854088169E+02, sbetmx= -7.14591E-01
+      CALPRE: iter=   1, px=  7.999524934E+02, sbetmx= -2.00048E-01
+      CALPRE: iter=   2, px=  1.014739056E+03, sbetmx=  1.47391E-02
+      CALPRE: iter=   3, px=  1.000065271E+03, sbetmx=  6.52715E-05
+      CALPRE: iter=   4, px=  1.000000001E+03, sbetmx=  1.29631E-09
+      CALPRE: iter=   5, px=  1.000000000E+03, sbetmx= -1.13687E-16
+
+        Temp(K)          press(MPa)
+       300.0000        0.100000000E+04
+
+      WARNING (VISCOS): Outside the range of validity
+          of the viscosity model
+
+      WARNING (THCOND): Outside the range of validity
+         of the thermal conductivity model
+
+       H2O(compressed liquid)
+
+                delta           rho(kg/m3)
+           0.384321917E+01   0.123751657E+04
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.759998574E+02   0.884069843E+03   0.270895239E-01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+           0.678730002E+02   0.875942986E+03   0.808069985E-03
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.341703438E+01   0.376871816E+01   0.272330902E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.187557466E-03   0.706851227E-06   0.268576089E-04
+
+               av(/K)            kt(/MPa)
+           0.417532970E-03   0.120170935E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -221.3950        -271.7934          63.8228
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -232.2828        -282.6813      1.45576E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3417.0344        3768.7182       1.27341E-08
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  650.0000             tau    =  0.995532308E+00
+           press   =  0.100000000E+02 MPa
+
+      This appears to be hot vapor.
+
+      CALPRE: iter=   0, px=  9.599235440E+00, sbetmx= -4.00765E-02
+      CALPRE: iter=   1, px=  9.995298798E+00, sbetmx= -4.70120E-04
+      CALPRE: iter=   2, px=  9.999999327E+00, sbetmx= -6.72598E-08
+      CALPRE: iter=   3, px=  1.000000000E+01, sbetmx= -1.42109E-15
+
+        Temp(K)          press(MPa)
+       650.0000        0.100000000E+02
+
+      WARNING (PMELT): The temperature of 650.000000000K is out of range.
+
+       H2O(hot vapor)
+
+                delta           rho(kg/m3)
+           0.125710770E+00   0.404788678E+02
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.277552510E+04   0.302256758E+04   0.610085559E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.119003103E+04  -0.942988551E+03   0.247042482E-01
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.211026086E+01   0.339682773E+01   0.562097393E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.773889756E-02  -0.262877018E-04   0.150116385E-01
+
+               av(/K)            kt(/MPa)
+           0.317553293E-02   0.125859464E+00
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -276.3307        -233.2678         173.2434
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -277.1115        -234.0486      4.45054E-04
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               2110.2609        3396.8277      -4.73580E-07
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  650.0000             tau    =  0.995532308E+00
+           press   =  0.100000000E+03 MPa
+
+      This appears to be supercritical fluid.
+
+      CALPRE: iter=   0, px=  1.184580477E+03, sbetmx=  1.08458E+01
+      CALPRE: iter=   1, px=  4.182289705E+02, sbetmx=  3.18229E+00
+      CALPRE: iter=   2, px=  1.834825651E+02, sbetmx=  8.34826E-01
+      CALPRE: iter=   3, px=  1.150244765E+02, sbetmx=  1.50245E-01
+      CALPRE: iter=   4, px=  1.009056386E+02, sbetmx=  9.05639E-03
+      CALPRE: iter=   5, px=  1.000039947E+02, sbetmx=  3.99474E-05
+      CALPRE: iter=   6, px=  1.000000001E+02, sbetmx=  7.87983E-10
+
+        Temp(K)          press(MPa)
+       650.0000        0.100000000E+03
+
+      WARNING (PMELT): The temperature of 650.000000000K is out of range.
+
+       H2O(supercritical fluid)
+
+                delta           rho(kg/m3)
+           0.225531598E+01   0.726211744E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.154184869E+04   0.167954958E+04   0.359517402E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.795014422E+03  -0.657313537E+03   0.137700885E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.283287031E+01   0.475032574E+01   0.115858480E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.718271694E-04  -0.341202452E-06   0.361703891E-03
+
+               av(/K)            kt(/MPa)
+           0.191966958E-02   0.172019538E-02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -271.1842        -257.4626         128.1029
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -269.9952        -256.2736      2.48072E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               2832.8703        4750.3257      -6.14686E-09
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  650.0000             tau    =  0.995532308E+00
+           press   =  0.500000000E+03 MPa
+
+      This appears to be supercritical fluid.
+
+      CALPRE: iter=   0, px=  1.184580477E+03, sbetmx=  1.36916E+00
+      CALPRE: iter=   1, px=  6.338258978E+02, sbetmx=  2.67652E-01
+      CALPRE: iter=   2, px=  5.103232705E+02, sbetmx=  2.06465E-02
+      CALPRE: iter=   3, px=  5.000797464E+02, sbetmx=  1.59493E-04
+      CALPRE: iter=   4, px=  5.000000049E+02, sbetmx=  9.75845E-09
+      CALPRE: iter=   5, px=  5.000000000E+02, sbetmx=  4.54747E-16
+
+        Temp(K)          press(MPa)
+       650.0000        0.500000000E+03
+
+      WARNING (VISCOS): Outside the range of validity
+          of the viscosity model
+
+      WARNING (THCOND): Outside the range of validity
+         of the thermal conductivity model
+
+       H2O(supercritical fluid)
+
+                delta           rho(kg/m3)
+           0.294210357E+01   0.947357350E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.130759716E+04   0.183538111E+04   0.311619790E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.717931474E+03  -0.190147529E+03   0.105556789E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.285607901E+01   0.374898387E+01   0.203272357E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.160661364E-03   0.602316863E-06   0.120899701E-03
+
+               av(/K)            kt(/MPa)
+           0.660601066E-03   0.335330364E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -262.7680        -254.6553         119.4740
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -268.6065        -260.4937      1.90164E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               2856.0790        3748.9839       1.08509E-08
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  870.0000             tau    =  0.743788506E+00
+           press   =  0.100000000E+02 MPa
+
+      This appears to be hot vapor.
+
+      CALPRE: iter=   0, px=  1.092634411E+01, sbetmx=  9.26344E-02
+      CALPRE: iter=   1, px=  9.995351090E+00, sbetmx= -4.64891E-04
+      CALPRE: iter=   2, px=  9.999999884E+00, sbetmx= -1.15545E-08
+      CALPRE: iter=   3, px=  1.000000000E+01, sbetmx= -1.77636E-16
+
+        Temp(K)          press(MPa)
+       870.0000        0.100000000E+02
+
+      WARNING (PMELT): The temperature of 870.000000000K is out of range.
+
+       H2O(hot vapor)
+
+                delta           rho(kg/m3)
+           0.812786916E-01   0.261717387E+02
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.323592229E+04   0.361801384E+04   0.689558908E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.276324020E+04  -0.238114866E+04   0.382091542E-01
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.183670095E+01   0.245943338E+01   0.697291561E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.344120443E-02  -0.846341304E-05   0.189769594E-01
+
+               av(/K)            kt(/MPa)
+           0.140402556E-02   0.105228946E+00
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -316.1732        -222.5406         187.5608
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -319.3869        -225.7544      6.88349E-04
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1836.7009        2459.4334      -1.52471E-07
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  870.0000             tau    =  0.743788506E+00
+           press   =  0.100000000E+03 MPa
+
+      This appears to be supercritical fluid.
+
+      CALPRE: iter=   0, px=  1.751004932E+03, sbetmx=  1.65100E+01
+      CALPRE: iter=   1, px=  6.409119093E+02, sbetmx=  5.40912E+00
+      CALPRE: iter=   2, px=  2.808270238E+02, sbetmx=  1.80827E+00
+      CALPRE: iter=   3, px=  1.558569310E+02, sbetmx=  5.58569E-01
+      CALPRE: iter=   4, px=  1.119020557E+02, sbetmx=  1.19021E-01
+      CALPRE: iter=   5, px=  1.007993763E+02, sbetmx=  7.99376E-03
+      CALPRE: iter=   6, px=  1.000038299E+02, sbetmx=  3.82993E-05
+      CALPRE: iter=   7, px=  1.000000001E+02, sbetmx=  8.81202E-10
+
+        Temp(K)          press(MPa)
+       870.0000        0.100000000E+03
+
+      WARNING (PMELT): The temperature of 870.000000000K is out of range.
+
+       H2O(supercritical fluid)
+
+                delta           rho(kg/m3)
+           0.117430873E+01   0.378127412E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.258429789E+04   0.284875901E+04   0.513936245E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.188694745E+04  -0.162248632E+04   0.264461123E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.249416814E+01   0.519940676E+01   0.766874237E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.960493286E-03  -0.499399528E-05   0.146913040E-02
+
+               av(/K)            kt(/MPa)
+           0.331996151E-02   0.937435959E-02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -302.5057        -236.3990         155.9218
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -303.6003        -237.4936      4.76434E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               2494.1681        5199.4068      -8.99682E-08
+
+ ----------------------------------------
+
+   CALPRE: Temp(K) =  870.0000             tau    =  0.743788506E+00
+           press   =  0.500000000E+03 MPa
+
+      This appears to be supercritical fluid.
+
+      CALPRE: iter=   0, px=  1.751004932E+03, sbetmx=  2.50201E+00
+      CALPRE: iter=   1, px=  8.251037295E+02, sbetmx=  6.50207E-01
+      CALPRE: iter=   2, px=  5.544189640E+02, sbetmx=  1.08838E-01
+      CALPRE: iter=   3, px=  5.026464492E+02, sbetmx=  5.29290E-03
+      CALPRE: iter=   4, px=  5.000072545E+02, sbetmx=  1.45089E-05
+      CALPRE: iter=   5, px=  5.000000001E+02, sbetmx=  1.09908E-10
+
+        Temp(K)          press(MPa)
+       870.0000        0.500000000E+03
+
+      WARNING (VISCOS): Outside the range of validity
+          of the viscosity model
+
+      WARNING (THCOND): Outside the range of validity
+         of the thermal conductivity model
+
+       H2O(supercritical fluid)
+
+                delta           rho(kg/m3)
+           0.251843132E+01   0.810934884E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.203956966E+04   0.265614198E+04   0.420409676E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.161799452E+04  -0.100142220E+04   0.123314463E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.263283326E+01   0.370516969E+01   0.177362650E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.117806021E-03   0.436491299E-06   0.215011295E-03
+
+               av(/K)            kt(/MPa)
+           0.742567792E-03   0.551663721E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -291.3170        -239.8690         139.0728
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -298.7550        -247.3070      2.22154E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               2632.8333        3705.1697       7.86351E-09
+
+ ----------------------------------------
+
+   Have read 29 lines from the input file.
+   Done.
+

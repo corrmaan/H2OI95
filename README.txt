@@ -1,0 +1,117 @@
+ReadMe.txt     Last revised 06/09/2020
+
+H2OI95, A Code for Evaluating the IAPWS-95 Equation-of-State Model for Water
+Version 1.1, Build 118
+Written by Thomas J. Wolery (wolery1@llnl.gov)
+Unclassified/Open Source Distribution
+LLNL-CODE-811146
+CP Numbber: CP02321
+
+Copyright (c) 2018, 2020, Lawrence Livermore National Security, LLC.
+All rights reserved.
+
+SPDX-License-Identifier: BSD-3-Clause
+
+For more information on license, see the LICENSE file (LICENSE.txt or LICENSE.md).
+See also the NOTICE file (NOTICE.txt or NOTICE.md).
+
+H2OI95 is distributed under the terms of the BSD-3-Clause license. All new
+contributions must be made under this license.
+
+This is version 1.1 of the software, following version 1.0. Version 1.1
+fixes a coding error affecting some results close to the critical point of water
+(647.096K and 22.064 MPa). It also includes calculation of a number of addtional
+water properties, including the more basic Debye-Huckel parameters often used
+in thermodynamic modeling of aqueous solutions. For a fuller description of the
+changes, see the associated report (Wolery, 2020, LLNL-TR-805304), which is
+included in the software package as a PDF. 
+
+This software evaluates the IAPWS-95 equation-of-state model (Wagner
+and Pruss, 2002) as described (and partially modified) by IAPWS (2016).
+The software is provided as a Windows PC executable, along with files to
+assist running it in a command window environment). The software is run by
+providing a text-based input file, of which numerous examples are included in
+the test case library included in the software package.. Archived output files
+are also included to assist in checking installation and any porting.
+A fuller description is given in the associated report (Wolery, 2020).
+References cited above are included in this report.
+
+As written, H2OI95 is a "research" code designed to support numerical
+studies of requisite iterative calculations. It has been extensively
+tested in this regard. See the associated report (Wolery, 2020) for details.
+It is fast enough for ordinary stand-alone calculations, including the
+generation of steam tables (primarily through the mtab.csv, ctab.csv, and
+xtab.csv output files). The code in H2OI95 could be modified to support
+direct incorporation into other software, such as SUPCRT92 (Johnson et al.,
+1992) or a reactive-transport code.
+
+There is no installation program. The software can be downloaded from
+GitHub at https://github.com/LLNL/H2OI95. It may also be available from
+other repositories. Download the file H2OI95_v1.1_b118.zip. This contains
+the software (everything needed: Windows exectuable, Fortran source, test
+case package, the associated report, other documentation, and items to
+assist in running the software on a Windows system). Some items
+including the associated report may also be separately downloaded from
+GitHub or another repository.
+
+Unzip the zip file. This is best done in the Downloads folder or another
+folder that is not C:\. Windows 10 will not allow an unzip to C:\ as
+a security measure. It is not recommended to try to change the requisite
+permissions for this folder. Once the file is unzipped elsewhere, a folder
+called H2OI95_v.1.1_b118 should appear. In it, there should be a folder
+called H2OI95_v.1.1. That folder that should be moved to C:\ (or another
+location if the user desires, but some extra work will be required as
+described below).
+
+To install the software on a Windows PC, copy the H2OI95_v1.1 folder to the
+C:\ folder. Then copy the contained H2OI95_v1.1 shortcut (a special cmd
+shortcut) to the desktop. If the H2OI95_v1.1 folder is copied elsewhere,
+associated changes will be necessary to the Properties of the H2OI95_v1.1
+shortcut and the H2OI95cfg.bat batch file used to configure the special
+command line window environment. These will generally involve changing
+references to "C:\" to something consistent with where you have put the
+H2OI95_v.1.1 folder. Similar changes will also be necessary in the tch.bat
+file if it is desired to use it to run the complete test case package.
+
+If installing to a non-Windows system (such as Linux), you have the
+Fortran source and will need to compile it yourself. No instructions are
+provided here on how to do that. Don't contact us asking for instructions.
+You should know your system if you want to run this software on a
+non-Windows system.
+
+To run the software, open the special command line window. An input file
+(named "input") is needed to specify the problem to be run. Enter the
+command "H2OI95" (caps are not necessary) to make a run. For more detailed
+instructions on using the software, please consult the associated
+report. Examples are given and discussed.   
+
+The test case library (Test_pkg) is in the Testing folder.
+
+The Windows PC executable is in the Bin folder.
+
+The Fortran source code is in the Src folder. H2OI95 is written in
+"simple" Fortran, uses explicit variable typing, and passes information
+between routines using only calling sequences (no common blocks).
+
+The Testing folder contains tch.bat, a Windows batch file to run all
+of the test cases. It works with tchs.bat and tfcm1.bat, two other batch
+files, to do this. Batch file tfcm1.bat requires a "sed" command, which
+may not be included with Windows. It may be necessary to download and
+install a "sed" from the internet. An internet search will provide
+possibilities. The particular sed usage in tfmc1.bat is fairly primitive
+and should be found in just about any sed that the user may encounter.
+
+The Testing folder also contains the Test_pkg folder, which contains each
+test problem in its own folder (e.g., "MCclx"). Each test case folder
+contains an archival input file (in case the user should make changes to
+the actual input file) and archival copies of the corresponding output
+files (output, out, mtab.csv, and ctab.csv). The batch file tch.bat will
+compare output files generated by running the code with the matching
+archival copies. The file "out" here actually captures what would otherwise
+be screen output written by H2OI95.
+
+A Work folder is included for the user's convenience in running the
+software on the user's own problems. The user may choose to run the
+software in another folder of the user's choosing.
+
+------------------------------------------------------------------------

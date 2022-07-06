@@ -1,0 +1,27 @@
+input_scp
+# TCscp
+
+# Calculate the saturation temperature and corresponding
+# results for specified pressure values. This is an example
+# of the "tsat" option. The purpose is to examine convergence
+# behavior and to illustrate this option. Pressure must be
+# specified in MPa, not bars.
+
+# The following strings are write option switches.
+
+#showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+   press(MPa)    tsat    
+   0.0100
+   0.0500
+   0.1000
+   0.5000
+   1.0000
+   5.0000
+  10.0000
+  15.0000
+  20.0000
+

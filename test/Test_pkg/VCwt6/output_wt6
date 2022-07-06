@@ -1,0 +1,156 @@
+ H2OI95, Version 1.1, Build 118
+
+ input_wt6
+ # VCwt6
+ 
+ # Compare results with Table 6 of IAPWS (2016), "Revised Release
+ # on the IAPWS Formulation 1995 for the Thermodynamic Properties
+ # of Ordinary Water Substance for General and Scientific Use".
+ # This document is available from the iapws.org web site as
+ # document IAPWS R6-95 (IAPWS95-2016.pdf). The purpose is to
+ # validate the calculation of the phi functions, for 500K and
+ # a density of 838.0250 kg/m3. Running the software with
+ # with "showphi" causes the phi functions to be written on the
+ # output. Density must be specified in kg/m3, not g/cm3.
+ 
+ # The contents of Table 6 from IAPWS (2016) partially duplicate
+ # Table 6.6 of Wagner and Pruss (2002). The latter table also
+ # includes a test at 647K and density of 358 kg/m3. Our results
+ # for phir, phird, and phirdd not precisely match theirs for
+ # these conditions. We believe it likely that IAPWS (2016)
+ # dropped this part of the original test for a reason, though
+ # they do not give one. This close to the critical point, minor
+ # differences may result from differences in  numerical methods
+ # and tolerances. Results may also be compared with results
+ # (for liquid) from Table 13.1 of Wagner and Pruss (2002).
+ # However, their results are given to less precision.
+ 
+ # For the case at 500K and density of 838.0250 kg/m3, the result
+ # for phi0 given by Wagner and Pruss (2002) is off by one in the
+ # last decimal place from the value given by IAPWS (2016).
+ 
+ # The following strings are write option switches.
+ 
+  showphi
+ #showdetails1
+ #showdetails2
+ #showdetails3
+ 
+ The header line contains "tempk    rho(kg/m3)"
+
+
+       tempk =  0.500000000E+03   rho   =  0.838025000E+03
+       delta =  0.260256211E+01   tau   =  0.129419200E+01
+
+
+
+            phi functions
+
+     phi0   =  0.204797733E+01     phir   = -0.342693206E+01
+     phi0d  =  0.384236747E+00     phird  = -0.364366650E+00
+     phi0dd = -0.147637878E+00     phirdd =  0.856063701E+00
+     phi0t  =  0.904611106E+01     phirt  = -0.581403435E+01
+     phi0tt = -0.193249185E+01     phirtt = -0.223440737E+01
+     phi0dt =  0.000000000E+00     phirdt = -0.112176915E+01
+
+
+
+        Temp(K)          press(MPa)
+       500.0000        0.100003858E+02
+
+      WARNING (PMELT): The temperature of 500.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.260256211E+01   0.838025000E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.965248346E+03   0.977181624E+03   0.256690919E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.318206247E+03  -0.306272969E+03   0.119328182E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.322106219E+01   0.460222448E+01   0.127128441E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.566908123E-04   0.260903844E-06   0.202592895E-03
+
+               av(/K)            kt(/MPa)
+           0.156271211E-02   0.105493639E-02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -255.3599        -270.1160         109.5784
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -251.9051        -266.6612      2.14973E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3221.0622        4602.2245       4.70026E-09
+
+ ----------------------------------------
+
+       tempk =  0.647000000E+03   rho   =  0.358000000E+03
+       delta =  0.111180124E+01   tau   =  0.100014838E+01
+
+
+
+            phi functions
+
+     phi0   = -0.156319605E+01     phir   = -0.121202657E+01
+     phi0d  =  0.899441341E+00     phird  = -0.714012024E+00
+     phi0dd = -0.808994726E+00     phirdd =  0.475730696E+00
+     phi0t  =  0.980343918E+01     phirt  = -0.321722501E+01
+     phi0tt = -0.343316334E+01     phirtt = -0.996029507E+01
+     phi0dt =  0.000000000E+00     phirdt = -0.133214720E+01
+
+
+
+        Temp(K)          press(MPa)
+       647.0000        0.220384756E+02
+
+      WARNING (PMELT): The temperature of 647.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.111180124E+01   0.358000000E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.196694971E+04   0.202850969E+04   0.432092307E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.828687518E+03  -0.767127531E+03   0.279329609E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.618315728E+01   0.353179842E+04   0.252145078E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.357962087E-02  -0.126424994E-01   0.358041177E-02
+
+               av(/K)            kt(/MPa)
+           0.699693164E+01   0.250958320E+02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -272.9725        -251.1760         141.1774
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -270.4118        -248.6153      5.03220E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+             6.18316E+03      3.53180E+06      -2.27758E-04
+
+ ----------------------------------------
+
+   Have read 40 lines from the input file.
+   Done.
+

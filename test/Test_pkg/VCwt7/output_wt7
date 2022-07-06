@@ -1,0 +1,479 @@
+ H2OI95, Version 1.1, Build 118
+
+ input_wt7
+ # VCwt7
+ 
+ # Compare results with Table 7 of IAPWS (2016), "Revised Release
+ # on the IAPWS Formulation 1995 for the Thermodynamic Properties
+ # of Ordinary Water Substance for General and Scientific Use".
+ # This document is available from the iapws.org web site as
+ # document IAPWS R6-95 (IAPWS95-2016.pdf). The purpose is to
+ # validate results obtained for specified temperature and density
+ # values. Density must be specified in kg/m3.
+ 
+ # Results for 647K and density of 358 kg/m3 do not precisely
+ # match those given by IAPWS (2016). This close to the critical
+ # point, minor differences may result from differences in
+ # numerical methods and tolerances. Results may also be compared
+ # with results (for liquid) from Table 13.1 of Wagner and Pruss
+ # (2002). However, their results are given to less precision.
+ 
+ # The following strings are write option switches.
+ 
+ #showphi
+ #showdetails1
+ #showdetails2
+ #showdetails3
+ 
+ The header line contains "tempk    rho(kg/m3)"
+
+
+        Temp(K)          press(MPa)
+       300.0000        0.992418352E-01
+
+      WARNING (PMELT): The temperature of 300.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.309489441E+01   0.996556000E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.112553397E+03   0.112652982E+03   0.393062643E+00
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.536539605E+01  -0.526581124E+01   0.100345590E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.413018112E+01   0.418064167E+01   0.150151914E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.220236552E-03   0.920730105E-06   0.197878228E-04
+
+               av(/K)            kt(/MPa)
+           0.274802963E-03   0.450516183E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -237.2702        -285.6907          70.4159
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -233.6022        -282.0227      1.80775E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               4130.1811        4180.6417       1.65872E-08
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       300.0000        0.200022515E+02
+
+      WARNING (PMELT): The temperature of 300.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.312207453E+01   0.100530800E+04
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.110943172E+03   0.130839813E+03   0.387405401E+00
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.527844791E+01   0.146181923E+02   0.994720026E-03
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.406798347E+01   0.412821768E+01   0.153492501E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.219698164E-03   0.906961843E-06   0.212581287E-04
+
+               av(/K)            kt(/MPa)
+           0.294080010E-03   0.428459666E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -236.9120        -285.3630          70.3140
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -233.6007        -282.0517      1.79202E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               4067.9835        4128.2177       1.63392E-08
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       300.0000        0.700004704E+03
+
+       H2O(compressed liquid)
+
+                delta           rho(kg/m3)
+           0.369006832E+01   0.118820200E+04
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.793885486E+02   0.668517925E+03   0.132609616E+00
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+           0.396056637E+02   0.628735040E+03   0.841607740E-03
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.346135580E+01   0.377321943E+01   0.244357992E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.193897086E-03   0.731616252E-06   0.291505675E-04
+
+               av(/K)            kt(/MPa)
+           0.435640353E-03   0.153646420E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -225.8485        -275.6766          65.7238
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -232.7921        -282.6202      1.51618E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3461.3558        3773.2194       1.31803E-08
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       500.0000        0.999679423E-01
+
+      WARNING (PMELT): The temperature of 500.000000000K is out of range.
+
+       H2O(vapor)
+
+                delta           rho(kg/m3)
+           0.135093168E-02   0.435000000E+00
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.269874830E+04   0.292855966E+04   0.794488271E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.127369306E+04  -0.104388170E+04   0.229885057E+01
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.150817541E+01   0.198124932E+01   0.548314253E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.192976899E-01  -0.382335349E-04   0.117960122E+01
+
+               av(/K)            kt(/MPa)
+           0.203326318E-02   0.100447457E+02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -268.6481        -234.9613         206.4641
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -269.1185        -235.4317      4.14144E-02
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1508.1754        1981.2493      -6.88788E-07
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       500.0000        0.999938125E+00
+
+      WARNING (PMELT): The temperature of 500.000000000K is out of range.
+
+       H2O(vapor)
+
+                delta           rho(kg/m3)
+           0.140745342E-01   0.453200000E+01
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.267058160E+04   0.289122108E+04   0.682502725E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.741932023E+03  -0.521292543E+03   0.220653133E+00
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.166991025E+01   0.227945279E+01   0.535739001E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.197409474E-01  -0.449985576E-04   0.116541870E+00
+
+               av(/K)            kt(/MPa)
+           0.240786693E-02   0.104939996E+01
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -259.2335        -235.6340         186.2896
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -259.5386        -235.9391      3.97513E-03
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1669.9102        2279.4528      -8.10662E-07
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       500.0000        0.100003858E+02
+
+      WARNING (PMELT): The temperature of 500.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.260256211E+01   0.838025000E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.965248346E+03   0.977181624E+03   0.256690919E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.318206247E+03  -0.306272969E+03   0.119328182E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.322106219E+01   0.460222448E+01   0.127128441E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.566908123E-04   0.260903844E-06   0.202592895E-03
+
+               av(/K)            kt(/MPa)
+           0.156271211E-02   0.105493639E-02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -255.3599        -270.1160         109.5784
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -251.9051        -266.6612      2.14973E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3221.0622        4602.2245       4.70026E-09
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       500.0000        0.700000405E+03
+
+      WARNING (VISCOS): Outside the range of validity
+          of the viscosity model
+
+      WARNING (THCOND): Outside the range of validity
+         of the thermal conductivity model
+
+       H2O(compressed liquid)
+
+                delta           rho(kg/m3)
+           0.336821118E+01   0.108456400E+04
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.765692960E+03   0.141111398E+04   0.203237509E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.250494586E+03   0.394926436E+03   0.922029498E-03
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.307437693E+01   0.367154109E+01   0.241200877E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.188956712E-03   0.693762333E-06   0.621720304E-04
+
+               av(/K)            kt(/MPa)
+           0.495140698E-03   0.189268497E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -242.7276        -262.2985          99.9486
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -250.6853        -270.2562      1.66106E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3074.3769        3671.5411       1.24983E-08
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       647.0000        0.220384756E+02
+
+      WARNING (PMELT): The temperature of 647.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.111180124E+01   0.358000000E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.196694971E+04   0.202850969E+04   0.432092307E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.828687518E+03  -0.767127531E+03   0.279329609E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.618315728E+01   0.353179842E+04   0.252145078E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.357962087E-02  -0.126424994E-01   0.358041177E-02
+
+               av(/K)            kt(/MPa)
+           0.699693164E+01   0.250958320E+02
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -272.9725        -251.1760         141.1774
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -270.4118        -248.6153      5.03220E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+             6.18316E+03      3.53180E+06      -2.27758E-04
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       900.0000        0.100062559E+00
+
+      WARNING (PMELT): The temperature of 900.000000000K is out of range.
+
+       H2O(hot vapor)
+
+                delta           rho(kg/m3)
+           0.748447205E-03   0.241000000E+00
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.334977842E+04   0.376497576E+04   0.916653194E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.490010033E+04  -0.448490299E+04   0.414937759E+01
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.175890657E+01   0.222164469E+01   0.724027147E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.322801277E-02  -0.717149741E-05   0.187093333E+01
+
+               av(/K)            kt(/MPa)
+           0.111303148E-02   0.999781482E+01
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -355.9730        -219.8931         228.4724
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -359.7831        -223.7032      7.47522E-02
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1758.9066        2221.6447      -1.29197E-07
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       900.0000        0.200000690E+02
+
+      WARNING (PMELT): The temperature of 900.000000000K is out of range.
+
+       H2O(hot vapor)
+
+                delta           rho(kg/m3)
+           0.163400621E+00   0.526150000E+02
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.323266450E+04   0.361278555E+04   0.659070225E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.269896752E+04  -0.231884647E+04   0.190059869E-01
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.193510526E+01   0.271928538E+01   0.698445674E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.297635626E-02  -0.809356206E-05   0.996568772E-02
+
+               av(/K)            kt(/MPa)
+           0.158426974E-02   0.547488949E-01
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -316.9509        -222.6348         182.0681
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -320.1291        -225.8131      3.42398E-04
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1935.1053        2719.2854      -1.45808E-07
+
+ ----------------------------------------
+
+        Temp(K)          press(MPa)
+       900.0000        0.700000006E+03
+
+      WARNING (VISCOS): Outside the range of validity
+          of the viscosity model
+
+      WARNING (THCOND): Outside the range of validity
+         of the thermal conductivity model
+
+       H2O(supercritical fluid)
+
+                delta           rho(kg/m3)
+           0.270425155E+01   0.870769000E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.206163741E+04   0.286552456E+04   0.417223802E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.169337680E+04  -0.889489656E+03   0.114841020E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.266422350E+01   0.358031986E+01   0.201933608E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.153557178E-03   0.549783814E-06   0.167199135E-03
+
+               av(/K)            kt(/MPa)
+           0.579183665E-03   0.378469601E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -291.2006        -236.0969         138.4988
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -302.0131        -246.9094      2.06889E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               2664.2235        3580.3199       9.90451E-09
+
+ ----------------------------------------
+
+   Have read 41 lines from the input file.
+   Done.
+

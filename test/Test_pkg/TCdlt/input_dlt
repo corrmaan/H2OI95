@@ -1,0 +1,23 @@
+input_dlt
+# TCdlt
+
+# Calculate results for specified temperatures and reduced
+# densities. These calculations do not require iteration.
+
+# The following strings are write option switches.
+
+#showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+    tempk    delta
+  298.150   1.00d-05
+  298.150   1.00d-04
+  298.150   1.00d-03
+  298.150   1.00d-02
+  298.150   1.00d-01
+  298.150   2.00d+00
+  298.150   4.00d+00
+  298.150   5.00d+00
+  298.150   6.00d+00

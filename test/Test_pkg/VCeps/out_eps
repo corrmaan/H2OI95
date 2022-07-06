@@ -1,0 +1,271 @@
+H2OI95, Version 1.1, Build 118
+
+The header line contains "tempk    press(MPa)"
+
+
+     WARNING (H2OI95): Temp =  240.0000 K. This is outside
+        the nominal range of the IAPWS-95 model. Continuing.
+
+  CALPRE: Temp(K) =  240.0000             tau    =  0.269623333E+01
+          press   =  0.101325000E+00 MPa
+
+
+     WARNING (FDESCR): Temperature is too low to assign
+        a description to the H2O fluid.
+
+     WARNING (CALPRE): The H2O fluid type could not be determined.
+        A good starting estimate of density could not be established.
+     This appears to be unknown.
+
+     CALPRE: iter=   0, px=  1.088927506E+03, sbetmx=  1.07459E+04
+     CALPRE: iter=   1, px=  2.458881200E+02, sbetmx=  2.42573E+03
+     CALPRE: iter=   2, px=  6.002705378E+01, sbetmx=  5.91421E+02
+     CALPRE: iter=   3, px=  8.789176112E+00, sbetmx=  8.57424E+01
+     CALPRE: iter=   4, px=  2.857844997E-01, sbetmx=  1.82047E+00
+     CALPRE: iter=   5, px=  1.014161399E-01, sbetmx=  8.99481E-04
+     CALPRE: iter=   6, px=  1.013250001E-01, sbetmx=  1.19479E-09
+     CALPRE: iter=   7, px=  1.013250000E-01, sbetmx=  3.97747E-10
+
+       Temp(K)          press(MPa)
+      240.0000        0.101325000E+00
+
+     WARNING (PMELT): The temperature of 240.000000000K is out of range.
+
+     WARNING (VISCOS): Outside the range of validity
+         of the viscosity model
+
+     WARNING (THCOND): Outside the range of validity
+        of the thermal conductivity model
+
+      H2O(unknown)
+
+               delta           rho(kg/m3)
+          0.304004903E+01   0.978895788E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  300.0000             tau    =  0.215698667E+01
+          press   =  0.101325000E+00 MPa
+
+     This appears to be liquid.
+
+     CALPRE: iter=   0, px=  3.536806755E-03, sbetmx= -9.65094E-01
+     CALPRE: iter=   1, px=  1.013351436E-01, sbetmx=  1.00110E-04
+     CALPRE: iter=   2, px=  1.013250000E-01, sbetmx=  2.44139E-11
+
+       Temp(K)          press(MPa)
+      300.0000        0.101325000E+00
+
+     WARNING (PMELT): The temperature of 300.000000000K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.309489731E+01   0.996556935E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  300.0000             tau    =  0.215698667E+01
+          press   =  0.100000000E+02 MPa
+
+     This appears to be liquid.
+
+     CALPRE: iter=   0, px=  3.536806755E-03, sbetmx= -9.99646E-01
+     CALPRE: iter=   1, px=  1.010682271E+01, sbetmx=  1.06823E-02
+     CALPRE: iter=   2, px=  1.000001188E+01, sbetmx=  1.18776E-06
+     CALPRE: iter=   3, px=  1.000000000E+01, sbetmx=  1.52127E-12
+
+       Temp(K)          press(MPa)
+      300.0000        0.100000000E+02
+
+     WARNING (PMELT): The temperature of 300.000000000K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.310855599E+01   0.100095503E+04
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  300.0000             tau    =  0.215698667E+01
+          press   =  0.100000000E+04 MPa
+
+     This appears to be compressed liquid.
+
+     CALPRE: iter=   0, px=  2.854088169E+02, sbetmx= -7.14591E-01
+     CALPRE: iter=   1, px=  7.999524934E+02, sbetmx= -2.00048E-01
+     CALPRE: iter=   2, px=  1.014739056E+03, sbetmx=  1.47391E-02
+     CALPRE: iter=   3, px=  1.000065271E+03, sbetmx=  6.52715E-05
+     CALPRE: iter=   4, px=  1.000000001E+03, sbetmx=  1.29631E-09
+     CALPRE: iter=   5, px=  1.000000000E+03, sbetmx= -1.13687E-16
+
+       Temp(K)          press(MPa)
+      300.0000        0.100000000E+04
+
+     WARNING (VISCOS): Outside the range of validity
+         of the viscosity model
+
+     WARNING (THCOND): Outside the range of validity
+        of the thermal conductivity model
+
+      H2O(compressed liquid)
+
+               delta           rho(kg/m3)
+          0.384321917E+01   0.123751657E+04
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  650.0000             tau    =  0.995532308E+00
+          press   =  0.100000000E+02 MPa
+
+     This appears to be hot vapor.
+
+     CALPRE: iter=   0, px=  9.599235440E+00, sbetmx= -4.00765E-02
+     CALPRE: iter=   1, px=  9.995298798E+00, sbetmx= -4.70120E-04
+     CALPRE: iter=   2, px=  9.999999327E+00, sbetmx= -6.72598E-08
+     CALPRE: iter=   3, px=  1.000000000E+01, sbetmx= -1.42109E-15
+
+       Temp(K)          press(MPa)
+      650.0000        0.100000000E+02
+
+     WARNING (PMELT): The temperature of 650.000000000K is out of range.
+
+      H2O(hot vapor)
+
+               delta           rho(kg/m3)
+          0.125710770E+00   0.404788678E+02
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  650.0000             tau    =  0.995532308E+00
+          press   =  0.100000000E+03 MPa
+
+     This appears to be supercritical fluid.
+
+     CALPRE: iter=   0, px=  1.184580477E+03, sbetmx=  1.08458E+01
+     CALPRE: iter=   1, px=  4.182289705E+02, sbetmx=  3.18229E+00
+     CALPRE: iter=   2, px=  1.834825651E+02, sbetmx=  8.34826E-01
+     CALPRE: iter=   3, px=  1.150244765E+02, sbetmx=  1.50245E-01
+     CALPRE: iter=   4, px=  1.009056386E+02, sbetmx=  9.05639E-03
+     CALPRE: iter=   5, px=  1.000039947E+02, sbetmx=  3.99474E-05
+     CALPRE: iter=   6, px=  1.000000001E+02, sbetmx=  7.87983E-10
+
+       Temp(K)          press(MPa)
+      650.0000        0.100000000E+03
+
+     WARNING (PMELT): The temperature of 650.000000000K is out of range.
+
+      H2O(supercritical fluid)
+
+               delta           rho(kg/m3)
+          0.225531598E+01   0.726211744E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  650.0000             tau    =  0.995532308E+00
+          press   =  0.500000000E+03 MPa
+
+     This appears to be supercritical fluid.
+
+     CALPRE: iter=   0, px=  1.184580477E+03, sbetmx=  1.36916E+00
+     CALPRE: iter=   1, px=  6.338258978E+02, sbetmx=  2.67652E-01
+     CALPRE: iter=   2, px=  5.103232705E+02, sbetmx=  2.06465E-02
+     CALPRE: iter=   3, px=  5.000797464E+02, sbetmx=  1.59493E-04
+     CALPRE: iter=   4, px=  5.000000049E+02, sbetmx=  9.75845E-09
+     CALPRE: iter=   5, px=  5.000000000E+02, sbetmx=  4.54747E-16
+
+       Temp(K)          press(MPa)
+      650.0000        0.500000000E+03
+
+     WARNING (VISCOS): Outside the range of validity
+         of the viscosity model
+
+     WARNING (THCOND): Outside the range of validity
+        of the thermal conductivity model
+
+      H2O(supercritical fluid)
+
+               delta           rho(kg/m3)
+          0.294210357E+01   0.947357350E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  870.0000             tau    =  0.743788506E+00
+          press   =  0.100000000E+02 MPa
+
+     This appears to be hot vapor.
+
+     CALPRE: iter=   0, px=  1.092634411E+01, sbetmx=  9.26344E-02
+     CALPRE: iter=   1, px=  9.995351090E+00, sbetmx= -4.64891E-04
+     CALPRE: iter=   2, px=  9.999999884E+00, sbetmx= -1.15545E-08
+     CALPRE: iter=   3, px=  1.000000000E+01, sbetmx= -1.77636E-16
+
+       Temp(K)          press(MPa)
+      870.0000        0.100000000E+02
+
+     WARNING (PMELT): The temperature of 870.000000000K is out of range.
+
+      H2O(hot vapor)
+
+               delta           rho(kg/m3)
+          0.812786916E-01   0.261717387E+02
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  870.0000             tau    =  0.743788506E+00
+          press   =  0.100000000E+03 MPa
+
+     This appears to be supercritical fluid.
+
+     CALPRE: iter=   0, px=  1.751004932E+03, sbetmx=  1.65100E+01
+     CALPRE: iter=   1, px=  6.409119093E+02, sbetmx=  5.40912E+00
+     CALPRE: iter=   2, px=  2.808270238E+02, sbetmx=  1.80827E+00
+     CALPRE: iter=   3, px=  1.558569310E+02, sbetmx=  5.58569E-01
+     CALPRE: iter=   4, px=  1.119020557E+02, sbetmx=  1.19021E-01
+     CALPRE: iter=   5, px=  1.007993763E+02, sbetmx=  7.99376E-03
+     CALPRE: iter=   6, px=  1.000038299E+02, sbetmx=  3.82993E-05
+     CALPRE: iter=   7, px=  1.000000001E+02, sbetmx=  8.81202E-10
+
+       Temp(K)          press(MPa)
+      870.0000        0.100000000E+03
+
+     WARNING (PMELT): The temperature of 870.000000000K is out of range.
+
+      H2O(supercritical fluid)
+
+               delta           rho(kg/m3)
+          0.117430873E+01   0.378127412E+03
+
+----------------------------------------
+
+  CALPRE: Temp(K) =  870.0000             tau    =  0.743788506E+00
+          press   =  0.500000000E+03 MPa
+
+     This appears to be supercritical fluid.
+
+     CALPRE: iter=   0, px=  1.751004932E+03, sbetmx=  2.50201E+00
+     CALPRE: iter=   1, px=  8.251037295E+02, sbetmx=  6.50207E-01
+     CALPRE: iter=   2, px=  5.544189640E+02, sbetmx=  1.08838E-01
+     CALPRE: iter=   3, px=  5.026464492E+02, sbetmx=  5.29290E-03
+     CALPRE: iter=   4, px=  5.000072545E+02, sbetmx=  1.45089E-05
+     CALPRE: iter=   5, px=  5.000000001E+02, sbetmx=  1.09908E-10
+
+       Temp(K)          press(MPa)
+      870.0000        0.500000000E+03
+
+     WARNING (VISCOS): Outside the range of validity
+         of the viscosity model
+
+     WARNING (THCOND): Outside the range of validity
+        of the thermal conductivity model
+
+      H2O(supercritical fluid)
+
+               delta           rho(kg/m3)
+          0.251843132E+01   0.810934884E+03
+
+----------------------------------------
+
+  Have read 29 lines from the input file.
+  Done.
+

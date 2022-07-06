@@ -1,0 +1,323 @@
+ H2OI95, Version 1.1, Build 118
+
+ input_wt8
+ # VCwt8
+ 
+ # Compare results with Table 8 of IAPWS (2016), "Revised Release
+ # on the IAPWS Formulation 1995 for the Thermodynamic Properties
+ # of Ordinary Water Substance for General and Scientific Use".
+ # This document is available from the iapws.org web site as
+ # document IAPWS R6-95 (IAPWS95-2016.pdf). The purpose is to
+ # validate results obtained for specified temperature and density
+ # values. Here the "psat" option is used to calculate vapor and
+ # liquid properties on the saturation curve.
+ 
+ # Our results do not precisely agree with those of IAPWS
+ # (2016) for 625K. These differences may be a consequence of
+ # using different numerical methods and tolerances, the effect
+ # of which is probably greater near the critical point.
+ 
+ # The following strings are write option switches.
+ 
+ #showphi
+ #showdetails1
+ #showdetails2
+ #showdetails3
+ 
+ The header line contains "tempk    psat"
+
+
+   CALSCT: Temp(K) =  275.0000             tau    =  0.235307636E+01
+
+      Temp(K) =  275.00000, LIES BETWEEN THE TRIPLE POINT and 298.15K.
+      APPLYING LOOSER CONVERGENCE TOLERANCE bettl1 =  1.000E-08.
+
+      CALSCT: iter=   0, psat=  6.984358601E-04, betamx=  8.79616E+00
+      CALSCT: iter=   1, psat=  6.984511700E-04, betamx=  6.21512E-05
+      CALSCT: iter=   2, psat=  6.984511667E-04, betamx=  1.98307E-08
+      CALSCT: iter=   3, psat=  6.984511667E-04, betamx=  3.00746E-08
+      CALSCT: iter=   4, psat=  6.984511667E-04, betamx=  1.53088E-08
+      CALSCT: iter=   5, psat=  6.984511667E-04, betamx=  3.91504E-09
+
+   CALSCT key results:
+
+        Temp(K)          press(MPa)
+       275.0000        0.698451167E-03
+
+      Temp(K) =  275.0000
+
+         psat   =  0.698451167E-03 MPa      tau    =  0.235307636E+01
+         deltsv =  0.171013950E-04          rhosv  =  0.550664919E-02
+         deltsl =  0.310524039E+01          rhosl  =  0.999887406E+03
+
+      WARNING (VISCOS): Could not calculate the
+         melting temperature. Hence could not check the
+         range of validity of the viscosity model.
+
+      WARNING (THCOND): Could not calculate the
+         melting temperature. Hence could not check the range
+         of validity of the thermal conductivity model.
+
+       H2O(vapor)
+
+                delta           rho(kg/m3)
+           0.171013950E-04   0.550664919E-02
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.237745217E+04   0.250428995E+04   0.910660121E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.126863163E+03  -0.253813983E-01   0.181598639E+03
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.141991254E+01   0.188618778E+01   0.410332051E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.558886066E+00  -0.105416407E-02   0.968370199E+02
+
+               av(/K)            kt(/MPa)
+           0.365747241E-02   0.143273227E+04
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -235.5924        -242.6047         227.3928
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -234.2077        -241.2199           3.2716
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1419.9125        1886.1878      -1.89911E-05
+
+      WARNING (PMELT): The temperature of 275.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.310524039E+01   0.999887406E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.775902349E+01   0.775972202E+01   0.283094670E-01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.260799282E-01  -0.253813983E-01   0.100011261E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.421325685E+01   0.421394642E+01   0.141135219E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.239649848E-03   0.100987162E-05  -0.231588463E-05
+
+               av(/K)            kt(/MPa)
+          -0.354833270E-04   0.502168162E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -235.5924        -287.5804          63.8448
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -231.9227        -283.9106      1.80173E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               4213.2569        4213.9464       1.81931E-08
+
+ ----------------------------------------
+
+   CALSCT: Temp(K) =  450.0000             tau    =  0.143799111E+01
+
+      CALSCT: iter=   0, psat=  9.322032148E-01, betamx=  4.04054E-03
+      CALSCT: iter=   1, psat=  9.322035637E-01, betamx=  4.02791E-08
+      CALSCT: iter=   2, psat=  9.322035636E-01, betamx=  2.07466E-13
+
+   CALSCT key results:
+
+        Temp(K)          press(MPa)
+       450.0000        0.932203564E+00
+
+      Temp(K) =  450.0000
+
+         psat   =  0.932203564E+00 MPa      tau    =  0.143799111E+01
+         deltsv =  0.149441106E-01          rhosv  =  0.481200360E+01
+         deltsl =  0.276503494E+01          rhosl  =  0.890341250E+03
+
+      WARNING (VISCOS): Could not calculate the
+         melting temperature. Hence could not check the
+         range of validity of the viscosity model.
+
+      WARNING (THCOND): Could not calculate the
+         melting temperature. Hence could not check the range
+         of validity of the thermal conductivity model.
+
+       H2O(vapor)
+
+                delta           rho(kg/m3)
+           0.149441106E-01   0.481200360E+01
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.258068616E+04   0.277441078E+04   0.660921221E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.393459335E+03  -0.199734716E+03   0.207813643E+00
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.190737264E+01   0.267422614E+01   0.500412284E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.303070770E-01  -0.810479776E-04   0.108016901E+00
+
+               av(/K)            kt(/MPa)
+           0.308889591E-02   0.116353838E+01
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -250.2738        -237.7384         182.4016
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -250.0941        -237.5586      3.74382E-03
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               1907.3726        2674.2261      -1.46010E-06
+
+      WARNING (PMELT): The temperature of 450.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.276503494E+01   0.890341250E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.748114567E+03   0.749161585E+03   0.210865845E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.200781734E+03  -0.199734716E+03   0.112316485E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.340767750E+01   0.439272624E+01   0.140037167E+04
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+          -0.117668386E-03   0.516885007E-06   0.138019037E-03
+
+               av(/K)            kt(/MPa)
+           0.119954657E-02   0.738299418E-03
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -250.2738        -274.2238         101.3229
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -246.6229        -270.5729      2.02341E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3407.6775        4392.7262       9.31183E-09
+
+ ----------------------------------------
+
+   CALSCT: Temp(K) =  625.0000             tau    =  0.103535360E+01
+
+      CALSCT: iter=   0, psat=  1.690816625E+01, betamx=  1.32192E-03
+      CALSCT: iter=   1, psat=  1.690826853E+01, betamx=  3.52017E-06
+      CALSCT: iter=   2, psat=  1.690826932E+01, betamx=  2.38674E-11
+
+   CALSCT key results:
+
+        Temp(K)          press(MPa)
+       625.0000        0.169082693E+02
+
+      Temp(K) =  625.0000
+
+         psat   =  0.169082693E+02 MPa      tau    =  0.103535360E+01
+         deltsv =  0.367361119E+00          rhosv  =  0.118290280E+03
+         deltsl =  0.176115026E+01          rhosl  =  0.567090385E+03
+
+      WARNING (VISCOS): Could not calculate the
+         melting temperature. Hence could not check the
+         range of validity of the viscosity model.
+
+      WARNING (THCOND): Could not calculate the
+         melting temperature. Hence could not check the range
+         of validity of the thermal conductivity model.
+
+       H2O(vapor)
+
+                delta           rho(kg/m3)
+           0.367361119E+00   0.118290280E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.240777746E+04   0.255071625E+04   0.518506121E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.832885797E+03  -0.689947009E+03   0.845377994E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.378388270E+01   0.179438851E+02   0.420867401E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.678075085E-02  -0.121673014E-03   0.725187402E-02
+
+               av(/K)            kt(/MPa)
+           0.246283759E-01   0.226328465E+00
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -270.1887        -241.7683         156.7451
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -269.0941        -240.6736      1.52297E-04
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3783.8827       17943.8851      -2.19197E-06
+
+      WARNING (PMELT): The temperature of 625.000000000K is out of range.
+
+       H2O(liquid)
+
+                delta           rho(kg/m3)
+           0.176115026E+01   0.567090385E+03
+
+         Thermodynamic Results
+
+               u(kJ/kg)          h(kJ/kg)         s(kJ/kg/K)
+           0.165645393E+04   0.168626976E+04   0.380194683E+01
+
+               a(kJ/kg)          g(kJ/kg)         v(m3/kg)
+          -0.719762837E+03  -0.689947009E+03   0.176338733E-02
+
+             cv(kJ/kg/K)       cp(kJ/kg/K)         w(m/s)
+           0.315734515E+01   0.106726769E+02   0.561453963E+03
+
+              mu(K/MPa)       dt(kJ/kg/MPa)       bs(K/MPa)
+           0.100737567E-02  -0.107513951E-04   0.117260014E-02
+
+               av(/K)            kt(/MPa)
+           0.113552205E-01   0.189090938E-01
+
+         Thermochemical Results
+
+               g(kJ/mol)        h(kJ/mol)        s(J/mol/K)
+               -270.1887        -257.3415         131.8279
+
+               a(kJ/mol)        u(kJ/mol)        v(m3/mol)
+               -267.0561        -254.2089      3.17679E-05
+
+             cv(J/mol/K)       cp(J/mol/K)     dt(kJ/mol/Mpa
+               3157.3452       10672.6769      -1.93689E-07
+
+ ----------------------------------------
+
+   Have read 29 lines from the input file.
+   Done.
+

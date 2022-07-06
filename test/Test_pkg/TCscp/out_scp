@@ -1,0 +1,314 @@
+H2OI95, Version 1.1, Build 118
+
+The header line contains "press(MPa)    tsat"
+
+
+  CALSCP: press  =  0.100000000E-01 MPa
+
+     CALSCP: iter=   0, tempk= 318.9556, betamx=  3.68669E-05
+     CALSCP: iter=   1, tempk= 320.9556, betamx=  1.06816E-01
+     CALSCP: iter=   2, tempk= 318.9563, betamx=  1.58835E-06
+     CALSCP: iter=   3, tempk= 318.9563, betamx=  2.51804E-11
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      318.9563        0.100000000E-01
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.211694790E-03   0.681657223E-01
+
+     WARNING (PMELT): The temperature of 318.956328924K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.307401638E+01   0.989833275E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.500000000E-01 MPa
+
+     CALSCP: iter=   0, tempk= 354.4663, betamx=  2.57142E-05
+     CALSCP: iter=   1, tempk= 356.4663, betamx=  8.30188E-02
+     CALSCP: iter=   2, tempk= 354.4669, betamx=  8.51949E-07
+     CALSCP: iter=   3, tempk= 354.4669, betamx=  9.17835E-12
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      354.4669        0.500000000E-01
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.958507400E-03   0.308639383E+00
+
+     WARNING (PMELT): The temperature of 354.466893133K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.301534834E+01   0.970942166E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.100000000E+00 MPa
+
+     CALSCP: iter=   0, tempk= 372.7559, betamx=  4.27316E-07
+     CALSCP: iter=   1, tempk= 374.7559, betamx=  7.36995E-02
+     CALSCP: iter=   2, tempk= 372.7559, betamx=  1.24792E-08
+     CALSCP: iter=   3, tempk= 372.7559, betamx=  6.66134E-15
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      372.7559        0.100000000E+00
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.183336640E-02   0.590343980E+00
+
+     WARNING (PMELT): The temperature of 372.755928897K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.297711648E+01   0.958631506E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.500000000E+00 MPa
+
+     CALSCP: iter=   0, tempk= 424.9815, betamx=  1.14719E-05
+     CALSCP: iter=   1, tempk= 426.9815, betamx=  5.42434E-02
+     CALSCP: iter=   2, tempk= 424.9811, betamx=  2.41119E-07
+     CALSCP: iter=   3, tempk= 424.9811, betamx=  1.10556E-12
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      424.9811        0.500000000E+00
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.828586339E-02   0.266804801E+01
+
+     WARNING (PMELT): The temperature of 424.981079103K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.284251561E+01   0.915290027E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.100000000E+01 MPa
+
+     CALSCP: iter=   0, tempk= 453.0280, betamx=  8.59163E-07
+     CALSCP: iter=   1, tempk= 455.0280, betamx=  4.68668E-02
+     CALSCP: iter=   2, tempk= 453.0280, betamx=  1.54217E-08
+     CALSCP: iter=   3, tempk= 453.0280, betamx=  5.77316E-15
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      453.0280        0.100000000E+01
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.159783875E-01   0.514504078E+01
+
+     WARNING (PMELT): The temperature of 453.028007882K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.275505983E+01   0.887129266E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.500000000E+01 MPa
+
+     CALSCP: iter=   0, tempk= 537.0905, betamx=  3.86178E-06
+     CALSCP: iter=   1, tempk= 539.0905, betamx=  3.23885E-02
+     CALSCP: iter=   2, tempk= 537.0907, betamx=  4.68892E-08
+     CALSCP: iter=   3, tempk= 537.0907, betamx=  7.54952E-14
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      537.0907        0.500000000E+01
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.787304297E-01   0.253511984E+02
+
+     WARNING (PMELT): The temperature of 537.090721954K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.241418930E+01   0.777368954E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.100000000E+02 MPa
+
+     CALSCP: iter=   0, tempk= 584.1474, betamx=  3.62945E-06
+     CALSCP: iter=   1, tempk= 586.1474, betamx=  2.75009E-02
+     CALSCP: iter=   2, tempk= 584.1471, betamx=  3.80037E-08
+     CALSCP: iter=   3, tempk= 584.1471, betamx=  5.04485E-14
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      584.1471        0.100000000E+02
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.172245606E+00   0.554630852E+02
+
+     WARNING (PMELT): The temperature of 584.147146967K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.213796178E+01   0.688423692E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.150000000E+02 MPa
+
+     CALSCP: iter=   0, tempk= 615.3053, betamx=  1.55055E-06
+     CALSCP: iter=   1, tempk= 617.3053, betamx=  2.52266E-02
+     CALSCP: iter=   2, tempk= 615.3054, betamx=  1.56753E-08
+     CALSCP: iter=   3, tempk= 615.3054, betamx=  1.64609E-14
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      615.3054        0.150000000E+02
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.300394724E+00   0.967271012E+02
+
+     WARNING (PMELT): The temperature of 615.305392192K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.187427944E+01   0.603517980E+03
+
+----------------------------------------
+
+  CALSCP: press  =  0.200000000E+02 MPa
+
+     CALSCP: iter=   0, tempk= 638.8972, betamx=  2.48192E-05
+     CALSCP: iter=   1, tempk= 640.8972, betamx=  2.41947E-02
+     CALSCP: iter=   2, tempk= 638.8992, betamx=  2.84120E-07
+     CALSCP: iter=   3, tempk= 638.8993, betamx=  3.34097E-12
+
+  CALSCP key results:
+
+       Temp(K)          press(MPa)
+      638.8993        0.200000000E+02
+
+     WARNING (VISCOS): Could not calculate the
+        melting temperature. Hence could not check the
+        range of validity of the viscosity model.
+
+     WARNING (THCOND): Could not calculate the
+        melting temperature. Hence could not check the range
+        of validity of the thermal conductivity model.
+
+      H2O(vapor)
+
+               delta           rho(kg/m3)
+          0.529492831E+00   0.170496691E+03
+
+     WARNING (PMELT): The temperature of 638.899255558K is out of range.
+
+      H2O(liquid)
+
+               delta           rho(kg/m3)
+          0.152232247E+01   0.490187835E+03
+
+----------------------------------------
+
+  Have read 27 lines from the input file.
+  Done.
+

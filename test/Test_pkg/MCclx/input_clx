@@ -1,0 +1,60 @@
+input_clx
+# MCclx
+
+# Calculate results for 500K and 25 MPa
+# (in the compressed liquid field), specifying
+# different starting values for the density
+# (rhog, kg/m3). The purpose is to examine convergence
+# behavior and to check for multiple solutions.
+# Here three solutions are found, one of which
+# is the expected solution for stable compressed liquid.
+# The second solution might be thought of as corresponding
+# to "compressed metastable vapor," although this represents
+# an extrapolation and may not be accurate. It does not
+# yield a valid result for the speed of sound. The third
+# solution gives a negative absolute (thermochemical)
+# entropy. Thus, it is a numerical solution with no
+# realistic physical interpretation.
+# 
+# The following strings are write option switches.
+
+#showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+    tempk    press(MPa)        rhog(kg/m3)
+
+# High density solution
+  500.      25.00000000d+00    5000.
+  500.      25.00000000d+00    2000.
+  500.      25.00000000d+00    1100.
+  500.      25.00000000d+00    1000.
+  500.      25.00000000d+00    900. 
+  500.      25.00000000d+00    800. 
+  500.      25.00000000d+00    710.572
+
+# Mid density solution
+  500.      25.00000000d+00    710.571
+  500.      25.00000000d+00    700. 
+  500.      25.00000000d+00    600. 
+  500.      25.00000000d+00    500. 
+  500.      25.00000000d+00    400. 
+  500.      25.00000000d+00    388.429
+
+# No solution
+  500.      25.00000000d+00    388.428
+  500.      25.00000000d+00    385. 
+  500.      25.00000000d+00    380. 
+  500.      25.00000000d+00    375.703
+
+# Low density solution
+  500.      25.00000000d+00    375.702
+  500.      25.00000000d+00    300. 
+  500.      25.00000000d+00    290.439
+
+# No solution
+  500.      25.00000000d+00    290.438
+  500.      25.00000000d+00    200.
+  500.      25.00000000d+00    100.
+

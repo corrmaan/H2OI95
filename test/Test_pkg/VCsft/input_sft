@@ -1,0 +1,34 @@
+inputsft
+# VCsft 
+
+# Calculate results for surface tension to compare
+# with Table1 of IAPWS R15-11.
+#
+# The following strings are write option switches.
+
+#showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+
+    tempk    psat(MPa)
+
+  273.160
+  298.150
+  323.150
+  348.150
+  373.150
+  398.150
+  423.150
+  448.150
+  473.150
+  498.150
+  523.150
+  548.150
+  573.150
+  598.150
+  623.150
+  643.150
+  647.096
+

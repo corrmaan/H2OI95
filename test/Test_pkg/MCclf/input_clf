@@ -1,0 +1,44 @@
+input_clf
+# MCclf
+
+# Calculate results for 640K and 25 MPa
+# (in the compressed liquid field), specifying
+# different starting values for the density
+# (rhog, kg/m3). The purpose is to examine
+# convergence behavior and check for multiple
+# solutions. Here only one solution is found.
+# 
+# The following strings are write option switches.
+
+#showphi
+#showdetails1
+#showdetails2
+#showdetails3
+
+    tempk    press(MPa)        rhog(kg/m3)
+
+# Unique density solution
+  640.      25.00000000d+00    10000.
+  640.      25.00000000d+00    5000.
+  640.      25.00000000d+00    2000.
+  640.      25.00000000d+00    1100.
+  640.      25.00000000d+00    1000.
+  640.      25.00000000d+00    900. 
+  640.      25.00000000d+00    800. 
+  640.      25.00000000d+00    700. 
+  640.      25.00000000d+00    600. 
+  640.      25.00000000d+00    500. 
+  640.      25.00000000d+00    442.515
+   
+# No solution
+  640.      25.00000000d+00    442.514
+  640.      25.00000000d+00    400. 
+  640.      25.00000000d+00    300. 
+  640.      25.00000000d+00    200.
+  640.      25.00000000d+00    100.
+  640.      25.00000000d+00    10.
+
+
+# Version 1.0 split points
+# 640.      25.00000000d+00    443.094
+# 640.      25.00000000d+00    443.093
