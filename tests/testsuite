@@ -610,25 +610,25 @@ at_color=auto
 # numerical order.
 at_format='??'
 # Description of all the test groups.
-at_help_all="1;testsuite.at:3;MCclf;;
-2;testsuite.at:6;MCclx;;
-3;testsuite.at:9;MCrtp;;
-4;testsuite.at:12;PL640;;
-5;testsuite.at:15;TCdlt;;
-6;testsuite.at:18;TCscp;;
-7;testsuite.at:21;VC298;;
-8;testsuite.at:24;VCdhf;;
-9;testsuite.at:27;VCeps;;
-10;testsuite.at:30;VCpre;;
-11;testsuite.at:33;VCsct;;
-12;testsuite.at:36;VCsft;;
-13;testsuite.at:39;VCthc;;
-14;testsuite.at:42;VCvis;;
-15;testsuite.at:45;VCwp1;;
-16;testsuite.at:48;VCwp2;;
-17;testsuite.at:51;VCwt6;;
-18;testsuite.at:54;VCwt7;;
-19;testsuite.at:57;VCwt8;;
+at_help_all="1;testsuite.at:4;MCclf;;
+2;testsuite.at:8;MCclx;;
+3;testsuite.at:12;MCrtp;;
+4;testsuite.at:16;PL640;;
+5;testsuite.at:20;TCdlt;;
+6;testsuite.at:24;TCscp;;
+7;testsuite.at:28;VC298;;
+8;testsuite.at:32;VCdhf;;
+9;testsuite.at:36;VCeps;;
+10;testsuite.at:40;VCpre;;
+11;testsuite.at:44;VCsct;;
+12;testsuite.at:48;VCsft;;
+13;testsuite.at:52;VCthc;;
+14;testsuite.at:56;VCvis;;
+15;testsuite.at:60;VCwp1;;
+16;testsuite.at:64;VCwp2;;
+17;testsuite.at:68;VCwt6;;
+18;testsuite.at:72;VCwt7;;
+19;testsuite.at:76;VCwt8;;
 "
 # List of the all the test groups.
 at_groups_all=`printf "%s\n" "$at_help_all" | sed 's/;.*//'`
@@ -2001,7 +2001,7 @@ exit 0
 ## Actual tests. ##
 ## ------------- ##
 #AT_START_1
-at_fn_group_banner 1 'testsuite.at:3' \
+at_fn_group_banner 1 'testsuite.at:4' \
   "MCclf" "                                          "
 at_xfail=no
 (
@@ -2009,15 +2009,15 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:4: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/MCclf\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:4"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCclf"
+printf "%s\n" "$at_srcdir/testsuite.at:5:  ! -d \"\${abs_builddir}/MCclf\"  && cp -a \"\${abs_srcdir}/MCclf\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/MCclf\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:5"
+( $at_check_trace;  ! -d "${abs_builddir}/MCclf"  && cp -a "${abs_srcdir}/MCclf" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCclf"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:4"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:5"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2027,7 +2027,7 @@ $at_traceon; }
 read at_status <"$at_status_file"
 #AT_STOP_1
 #AT_START_2
-at_fn_group_banner 2 'testsuite.at:6' \
+at_fn_group_banner 2 'testsuite.at:8' \
   "MCclx" "                                          "
 at_xfail=no
 (
@@ -2035,15 +2035,15 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:7: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/MCclx\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:7"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCclx"
+printf "%s\n" "$at_srcdir/testsuite.at:9:  ! -d \"\${abs_builddir}/MCclx\"  && cp -a \"\${abs_srcdir}/MCclx\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/MCclx\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:9"
+( $at_check_trace;  ! -d "${abs_builddir}/MCclx"  && cp -a "${abs_srcdir}/MCclx" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCclx"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:7"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:9"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2053,7 +2053,7 @@ $at_traceon; }
 read at_status <"$at_status_file"
 #AT_STOP_2
 #AT_START_3
-at_fn_group_banner 3 'testsuite.at:9' \
+at_fn_group_banner 3 'testsuite.at:12' \
   "MCrtp" "                                          "
 at_xfail=no
 (
@@ -2061,35 +2061,9 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:10: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/MCrtp\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:10"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCrtp"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:10"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_3
-#AT_START_4
-at_fn_group_banner 4 'testsuite.at:12' \
-  "PL640" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "4. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:13: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/PL640\""
+printf "%s\n" "$at_srcdir/testsuite.at:13:  ! -d \"\${abs_builddir}/MCrtp\"  && cp -a \"\${abs_srcdir}/MCrtp\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/MCrtp\""
 at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:13"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/PL640"
+( $at_check_trace;  ! -d "${abs_builddir}/MCrtp"  && cp -a "${abs_srcdir}/MCrtp" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCrtp"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
@@ -2103,9 +2077,35 @@ $at_traceon; }
   $at_times_p && times >"$at_times_file"
 ) 5>&1 2>&1 7>&- | eval $at_tee_pipe
 read at_status <"$at_status_file"
+#AT_STOP_3
+#AT_START_4
+at_fn_group_banner 4 'testsuite.at:16' \
+  "PL640" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "4. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:17:  ! -d \"\${abs_builddir}/PL640\"  && cp -a \"\${abs_srcdir}/PL640\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/PL640\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:17"
+( $at_check_trace;  ! -d "${abs_builddir}/PL640"  && cp -a "${abs_srcdir}/PL640" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/PL640"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:17"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
 #AT_STOP_4
 #AT_START_5
-at_fn_group_banner 5 'testsuite.at:15' \
+at_fn_group_banner 5 'testsuite.at:20' \
   "TCdlt" "                                          "
 at_xfail=no
 (
@@ -2113,15 +2113,15 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:16: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/TCdlt\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:16"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/TCdlt"
+printf "%s\n" "$at_srcdir/testsuite.at:21:  ! -d \"\${abs_builddir}/TCdlt\"  && cp -a \"\${abs_srcdir}/TCdlt\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/TCdlt\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:21"
+( $at_check_trace;  ! -d "${abs_builddir}/TCdlt"  && cp -a "${abs_srcdir}/TCdlt" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/TCdlt"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:16"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:21"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2131,7 +2131,7 @@ $at_traceon; }
 read at_status <"$at_status_file"
 #AT_STOP_5
 #AT_START_6
-at_fn_group_banner 6 'testsuite.at:18' \
+at_fn_group_banner 6 'testsuite.at:24' \
   "TCscp" "                                          "
 at_xfail=no
 (
@@ -2139,61 +2139,9 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:19: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/TCscp\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:19"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/TCscp"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:19"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_6
-#AT_START_7
-at_fn_group_banner 7 'testsuite.at:21' \
-  "VC298" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "7. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:22: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VC298\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:22"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VC298"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:22"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_7
-#AT_START_8
-at_fn_group_banner 8 'testsuite.at:24' \
-  "VCdhf" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "8. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:25: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCdhf\""
+printf "%s\n" "$at_srcdir/testsuite.at:25:  ! -d \"\${abs_builddir}/TCscp\"  && cp -a \"\${abs_srcdir}/TCscp\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/TCscp\""
 at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:25"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCdhf"
+( $at_check_trace;  ! -d "${abs_builddir}/TCscp"  && cp -a "${abs_srcdir}/TCscp" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/TCscp"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
@@ -2207,9 +2155,61 @@ $at_traceon; }
   $at_times_p && times >"$at_times_file"
 ) 5>&1 2>&1 7>&- | eval $at_tee_pipe
 read at_status <"$at_status_file"
+#AT_STOP_6
+#AT_START_7
+at_fn_group_banner 7 'testsuite.at:28' \
+  "VC298" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "7. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:29:  ! -d \"\${abs_builddir}/VC298\"  && cp -a \"\${abs_srcdir}/VC298\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VC298\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:29"
+( $at_check_trace;  ! -d "${abs_builddir}/VC298"  && cp -a "${abs_srcdir}/VC298" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VC298"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:29"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
+#AT_STOP_7
+#AT_START_8
+at_fn_group_banner 8 'testsuite.at:32' \
+  "VCdhf" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "8. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:33:  ! -d \"\${abs_builddir}/VCdhf\"  && cp -a \"\${abs_srcdir}/VCdhf\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCdhf\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:33"
+( $at_check_trace;  ! -d "${abs_builddir}/VCdhf"  && cp -a "${abs_srcdir}/VCdhf" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCdhf"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:33"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
 #AT_STOP_8
 #AT_START_9
-at_fn_group_banner 9 'testsuite.at:27' \
+at_fn_group_banner 9 'testsuite.at:36' \
   "VCeps" "                                          "
 at_xfail=no
 (
@@ -2217,87 +2217,9 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:28: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCeps\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:28"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCeps"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:28"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_9
-#AT_START_10
-at_fn_group_banner 10 'testsuite.at:30' \
-  "VCpre" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "10. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:31: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCpre\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:31"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCpre"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:31"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_10
-#AT_START_11
-at_fn_group_banner 11 'testsuite.at:33' \
-  "VCsct" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "11. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:34: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCsct\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:34"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCsct"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:34"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_11
-#AT_START_12
-at_fn_group_banner 12 'testsuite.at:36' \
-  "VCsft" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "12. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:37: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCsft\""
+printf "%s\n" "$at_srcdir/testsuite.at:37:  ! -d \"\${abs_builddir}/VCeps\"  && cp -a \"\${abs_srcdir}/VCeps\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCeps\""
 at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:37"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCsft"
+( $at_check_trace;  ! -d "${abs_builddir}/VCeps"  && cp -a "${abs_srcdir}/VCeps" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCeps"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
@@ -2311,25 +2233,25 @@ $at_traceon; }
   $at_times_p && times >"$at_times_file"
 ) 5>&1 2>&1 7>&- | eval $at_tee_pipe
 read at_status <"$at_status_file"
-#AT_STOP_12
-#AT_START_13
-at_fn_group_banner 13 'testsuite.at:39' \
-  "VCthc" "                                          "
+#AT_STOP_9
+#AT_START_10
+at_fn_group_banner 10 'testsuite.at:40' \
+  "VCpre" "                                          "
 at_xfail=no
 (
-  printf "%s\n" "13. $at_setup_line: testing $at_desc ..."
+  printf "%s\n" "10. $at_setup_line: testing $at_desc ..."
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:40: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCthc\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:40"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCthc"
+printf "%s\n" "$at_srcdir/testsuite.at:41:  ! -d \"\${abs_builddir}/VCpre\"  && cp -a \"\${abs_srcdir}/VCpre\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCpre\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:41"
+( $at_check_trace;  ! -d "${abs_builddir}/VCpre"  && cp -a "${abs_srcdir}/VCpre" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCpre"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:40"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:41"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2337,25 +2259,25 @@ $at_traceon; }
   $at_times_p && times >"$at_times_file"
 ) 5>&1 2>&1 7>&- | eval $at_tee_pipe
 read at_status <"$at_status_file"
-#AT_STOP_13
-#AT_START_14
-at_fn_group_banner 14 'testsuite.at:42' \
-  "VCvis" "                                          "
+#AT_STOP_10
+#AT_START_11
+at_fn_group_banner 11 'testsuite.at:44' \
+  "VCsct" "                                          "
 at_xfail=no
 (
-  printf "%s\n" "14. $at_setup_line: testing $at_desc ..."
+  printf "%s\n" "11. $at_setup_line: testing $at_desc ..."
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:43: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCvis\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:43"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCvis"
+printf "%s\n" "$at_srcdir/testsuite.at:45:  ! -d \"\${abs_builddir}/VCsct\"  && cp -a \"\${abs_srcdir}/VCsct\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCsct\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:45"
+( $at_check_trace;  ! -d "${abs_builddir}/VCsct"  && cp -a "${abs_srcdir}/VCsct" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCsct"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:43"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:45"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2363,45 +2285,19 @@ $at_traceon; }
   $at_times_p && times >"$at_times_file"
 ) 5>&1 2>&1 7>&- | eval $at_tee_pipe
 read at_status <"$at_status_file"
-#AT_STOP_14
-#AT_START_15
-at_fn_group_banner 15 'testsuite.at:45' \
-  "VCwp1" "                                          "
+#AT_STOP_11
+#AT_START_12
+at_fn_group_banner 12 'testsuite.at:48' \
+  "VCsft" "                                          "
 at_xfail=no
 (
-  printf "%s\n" "15. $at_setup_line: testing $at_desc ..."
+  printf "%s\n" "12. $at_setup_line: testing $at_desc ..."
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:46: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwp1\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:46"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwp1"
-) >>"$at_stdout" 2>>"$at_stderr" 5>&-
-at_status=$? at_failed=false
-$at_check_filter
-at_fn_diff_devnull "$at_stderr" || at_failed=:
-echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:46"
-$at_failed && at_fn_log_failure
-$at_traceon; }
-
-  set +x
-  $at_times_p && times >"$at_times_file"
-) 5>&1 2>&1 7>&- | eval $at_tee_pipe
-read at_status <"$at_status_file"
-#AT_STOP_15
-#AT_START_16
-at_fn_group_banner 16 'testsuite.at:48' \
-  "VCwp2" "                                          "
-at_xfail=no
-(
-  printf "%s\n" "16. $at_setup_line: testing $at_desc ..."
-  $at_traceon
-
-{ set +x
-printf "%s\n" "$at_srcdir/testsuite.at:49: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwp2\""
+printf "%s\n" "$at_srcdir/testsuite.at:49:  ! -d \"\${abs_builddir}/VCsft\"  && cp -a \"\${abs_srcdir}/VCsft\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCsft\""
 at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:49"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwp2"
+( $at_check_trace;  ! -d "${abs_builddir}/VCsft"  && cp -a "${abs_srcdir}/VCsft" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCsft"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
@@ -2415,9 +2311,113 @@ $at_traceon; }
   $at_times_p && times >"$at_times_file"
 ) 5>&1 2>&1 7>&- | eval $at_tee_pipe
 read at_status <"$at_status_file"
+#AT_STOP_12
+#AT_START_13
+at_fn_group_banner 13 'testsuite.at:52' \
+  "VCthc" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "13. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:53:  ! -d \"\${abs_builddir}/VCthc\"  && cp -a \"\${abs_srcdir}/VCthc\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCthc\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:53"
+( $at_check_trace;  ! -d "${abs_builddir}/VCthc"  && cp -a "${abs_srcdir}/VCthc" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCthc"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:53"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
+#AT_STOP_13
+#AT_START_14
+at_fn_group_banner 14 'testsuite.at:56' \
+  "VCvis" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "14. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:57:  ! -d \"\${abs_builddir}/VCvis\"  && cp -a \"\${abs_srcdir}/VCvis\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCvis\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:57"
+( $at_check_trace;  ! -d "${abs_builddir}/VCvis"  && cp -a "${abs_srcdir}/VCvis" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCvis"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:57"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
+#AT_STOP_14
+#AT_START_15
+at_fn_group_banner 15 'testsuite.at:60' \
+  "VCwp1" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "15. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:61:  ! -d \"\${abs_builddir}/VCwp1\"  && cp -a \"\${abs_srcdir}/VCwp1\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwp1\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:61"
+( $at_check_trace;  ! -d "${abs_builddir}/VCwp1"  && cp -a "${abs_srcdir}/VCwp1" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwp1"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:61"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
+#AT_STOP_15
+#AT_START_16
+at_fn_group_banner 16 'testsuite.at:64' \
+  "VCwp2" "                                          "
+at_xfail=no
+(
+  printf "%s\n" "16. $at_setup_line: testing $at_desc ..."
+  $at_traceon
+
+{ set +x
+printf "%s\n" "$at_srcdir/testsuite.at:65:  ! -d \"\${abs_builddir}/VCwp2\"  && cp -a \"\${abs_srcdir}/VCwp2\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwp2\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:65"
+( $at_check_trace;  ! -d "${abs_builddir}/VCwp2"  && cp -a "${abs_srcdir}/VCwp2" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwp2"
+) >>"$at_stdout" 2>>"$at_stderr" 5>&-
+at_status=$? at_failed=false
+$at_check_filter
+at_fn_diff_devnull "$at_stderr" || at_failed=:
+echo stdout:; cat "$at_stdout"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:65"
+$at_failed && at_fn_log_failure
+$at_traceon; }
+
+  set +x
+  $at_times_p && times >"$at_times_file"
+) 5>&1 2>&1 7>&- | eval $at_tee_pipe
+read at_status <"$at_status_file"
 #AT_STOP_16
 #AT_START_17
-at_fn_group_banner 17 'testsuite.at:51' \
+at_fn_group_banner 17 'testsuite.at:68' \
   "VCwt6" "                                          "
 at_xfail=no
 (
@@ -2425,15 +2425,15 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:52: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwt6\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:52"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt6"
+printf "%s\n" "$at_srcdir/testsuite.at:69:  ! -d \"\${abs_builddir}/VCwt6\"  && cp -a \"\${abs_srcdir}/VCwt6\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwt6\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:69"
+( $at_check_trace;  ! -d "${abs_builddir}/VCwt6"  && cp -a "${abs_srcdir}/VCwt6" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt6"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:52"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:69"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2443,7 +2443,7 @@ $at_traceon; }
 read at_status <"$at_status_file"
 #AT_STOP_17
 #AT_START_18
-at_fn_group_banner 18 'testsuite.at:54' \
+at_fn_group_banner 18 'testsuite.at:72' \
   "VCwt7" "                                          "
 at_xfail=no
 (
@@ -2451,15 +2451,15 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:55: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwt7\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:55"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt7"
+printf "%s\n" "$at_srcdir/testsuite.at:73:  ! -d \"\${abs_builddir}/VCwt7\"  && cp -a \"\${abs_srcdir}/VCwt7\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwt7\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:73"
+( $at_check_trace;  ! -d "${abs_builddir}/VCwt7"  && cp -a "${abs_srcdir}/VCwt7" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt7"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:55"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:73"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
@@ -2469,7 +2469,7 @@ $at_traceon; }
 read at_status <"$at_status_file"
 #AT_STOP_18
 #AT_START_19
-at_fn_group_banner 19 'testsuite.at:57' \
+at_fn_group_banner 19 'testsuite.at:76' \
   "VCwt8" "                                          "
 at_xfail=no
 (
@@ -2477,15 +2477,15 @@ at_xfail=no
   $at_traceon
 
 { set +x
-printf "%s\n" "$at_srcdir/testsuite.at:58: \"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwt8\""
-at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:58"
-( $at_check_trace; "${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt8"
+printf "%s\n" "$at_srcdir/testsuite.at:77:  ! -d \"\${abs_builddir}/VCwt8\"  && cp -a \"\${abs_srcdir}/VCwt8\" \"\${abs_builddir}/\";\"\${abs_srcdir}/runTest.sh\" \"\${abs_top_builddir}/src/H2OI95\"  \"\${abs_builddir}/VCwt8\""
+at_fn_check_prepare_notrace 'a ${...} parameter expansion' "testsuite.at:77"
+( $at_check_trace;  ! -d "${abs_builddir}/VCwt8"  && cp -a "${abs_srcdir}/VCwt8" "${abs_builddir}/";"${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt8"
 ) >>"$at_stdout" 2>>"$at_stderr" 5>&-
 at_status=$? at_failed=false
 $at_check_filter
 at_fn_diff_devnull "$at_stderr" || at_failed=:
 echo stdout:; cat "$at_stdout"
-at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:58"
+at_fn_check_status 0 $at_status "$at_srcdir/testsuite.at:77"
 $at_failed && at_fn_log_failure
 $at_traceon; }
 
