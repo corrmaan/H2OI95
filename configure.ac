@@ -20,9 +20,6 @@ AC_CHECK_PROG([DIFF],[diff],[yes])
 # Checks for library functions.
 
 AC_CONFIG_TESTDIR([tests])
-# AC_CONFIG_FILES([Makefile
-#                  tests/Makefile
-#                  tests/atlocal])
 AC_CONFIG_FILES([Makefile
                  tests/Makefile])
 AC_OUTPUT

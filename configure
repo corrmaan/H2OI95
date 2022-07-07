@@ -3136,9 +3136,6 @@ fi
 
 ac_config_commands="$ac_config_commands tests/atconfig"
 
-# AC_CONFIG_FILES([Makefile
-#                  tests/Makefile
-#                  tests/atlocal])
 ac_config_files="$ac_config_files Makefile tests/Makefile"
 
 cat >confcache <<\_ACEOF
