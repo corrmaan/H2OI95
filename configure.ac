@@ -8,6 +8,8 @@ AC_CONFIG_SRCDIR([src/H2OI95.f])
 # Checks for programs.
 AC_PROG_F77
 AC_PROG_INSTALL
+AC_PROG_SED
+AC_CHECK_PROG([DIFF],[diff],[yes])
 
 # Checks for libraries.
 
@@ -17,5 +19,10 @@ AC_PROG_INSTALL
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_TESTDIR([tests])
+# AC_CONFIG_FILES([Makefile
+#                  tests/Makefile
+#                  tests/atlocal])
+AC_CONFIG_FILES([Makefile
+                 tests/Makefile])
 AC_OUTPUT

@@ -1,0 +1,59 @@
+AT_INIT
+AT_COLOR_TESTS
+AT_SETUP([MCclf])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCclf"],,[ignore])
+AT_CLEANUP
+AT_SETUP([MCclx])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCclx"],,[ignore])
+AT_CLEANUP
+AT_SETUP([MCrtp])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/MCrtp"],,[ignore])
+AT_CLEANUP
+AT_SETUP([PL640])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/PL640"],,[ignore])
+AT_CLEANUP
+AT_SETUP([TCdlt])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/TCdlt"],,[ignore])
+AT_CLEANUP
+AT_SETUP([TCscp])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/TCscp"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VC298])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VC298"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCdhf])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCdhf"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCeps])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCeps"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCpre])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCpre"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCsct])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCsct"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCsft])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCsft"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCthc])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCthc"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCvis])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCvis"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCwp1])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwp1"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCwp2])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwp2"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCwt6])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt6"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCwt7])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt7"],,[ignore])
+AT_CLEANUP
+AT_SETUP([VCwt8])
+AT_CHECK(["${abs_srcdir}/runTest.sh" "${abs_top_builddir}/src/H2OI95"  "${abs_builddir}/VCwt8"],,[ignore])
+AT_CLEANUP
