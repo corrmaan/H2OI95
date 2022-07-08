@@ -4,6 +4,8 @@
 AC_PREREQ([2.71])
 AC_INIT([H2OI95], [1.1], [cory.marshall@drdc-rddc.gc.ca])
 AM_INIT_AUTOMAKE
+LT_PREREQ([2.4.7])
+LT_INIT
 AC_CONFIG_SRCDIR([src/H2OI95.f])
 # Checks for programs.
 AC_PROG_F77
@@ -22,5 +24,6 @@ AC_CHECK_PROG([DIFF],[diff],[yes])
 AC_CONFIG_TESTDIR([tests])
 AC_CONFIG_FILES([Makefile
                  src/Makefile
+                 src/libH2OI95/Makefile
                  tests/Makefile])
 AC_OUTPUT
