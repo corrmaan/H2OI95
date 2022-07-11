@@ -12,6 +12,7 @@ AC_PROG_F77
 AC_PROG_INSTALL
 AC_PROG_SED
 AC_CHECK_PROG([DIFF],[diff],[yes])
+PKG_INSTALLDIR
 
 # Checks for libraries.
 
@@ -25,5 +26,6 @@ AC_CONFIG_TESTDIR([tests])
 AC_CONFIG_FILES([Makefile
                  src/Makefile
                  src/libH2OI95/Makefile
+                 src/libH2OI95/libH2OI95.pc
                  tests/Makefile])
 AC_OUTPUT

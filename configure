@@ -663,6 +663,7 @@ ac_subst_vars='am__EXEEXT_FALSE
 am__EXEEXT_TRUE
 LTLIBOBJS
 LIBOBJS
+pkgconfigdir
 DIFF
 ac_ct_F77
 FFLAGS
@@ -797,6 +798,7 @@ enable_dependency_tracking
 with_gnu_ld
 with_sysroot
 enable_libtool_lock
+with_pkgconfigdir
 '
       ac_precious_vars='build_alias
 host_alias
@@ -1459,6 +1461,8 @@ Optional Packages:
   --with-gnu-ld           assume the C compiler uses GNU ld [default=no]
   --with-sysroot[=DIR]    Search for dependent libraries within DIR (or the
                           compiler's sysroot if not specified).
+  --with-pkgconfigdir     pkg-config installation directory
+                          ['${libdir}/pkgconfig']
 
 Some influential environment variables:
   CC          C compiler command
@@ -15965,6 +15969,22 @@ fi
 
 
 
+
+
+# Check whether --with-pkgconfigdir was given.
+if test ${with_pkgconfigdir+y}
+then :
+  withval=$with_pkgconfigdir;
+else $as_nop
+  with_pkgconfigdir='${libdir}/pkgconfig'
+fi
+
+pkgconfigdir=$with_pkgconfigdir
+
+
+
+
+
 # Checks for libraries.
 
 # Checks for header files.
@@ -15975,7 +15995,7 @@ fi
 
 ac_config_commands="$ac_config_commands tests/atconfig"
 
-ac_config_files="$ac_config_files Makefile src/Makefile src/libH2OI95/Makefile tests/Makefile"
+ac_config_files="$ac_config_files Makefile src/Makefile src/libH2OI95/Makefile src/libH2OI95/libH2OI95.pc tests/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -17080,6 +17100,7 @@ do
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
     "src/libH2OI95/Makefile") CONFIG_FILES="$CONFIG_FILES src/libH2OI95/Makefile" ;;
+    "src/libH2OI95/libH2OI95.pc") CONFIG_FILES="$CONFIG_FILES src/libH2OI95/libH2OI95.pc" ;;
     "tests/Makefile") CONFIG_FILES="$CONFIG_FILES tests/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5;;
