@@ -26,4 +26,4 @@ libH2OI95_la_SOURCES = \
     viscos.f \
     wrotab.f
 libH2OI95_la_LDFLAGS = -version-info 0:118:0
-pkgconfig_DATA = libH2OI95.pc
+pkgconfig_DATA = H2OI95.pc

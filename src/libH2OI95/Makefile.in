@@ -96,7 +96,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
-CONFIG_CLEAN_FILES = libH2OI95.pc
+CONFIG_CLEAN_FILES = H2OI95.pc
 CONFIG_CLEAN_VPATH_FILES =
 am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
 am__vpath_adj = case $$p in \
@@ -194,7 +194,7 @@ am__define_uniq_tagged_files = \
   unique=`for i in $$list; do \
     if test -f "$$i"; then echo $$i; else echo $(srcdir)/$$i; fi; \
   done | $(am__uniquify_input)`
-am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/libH2OI95.pc.in
+am__DIST_COMMON = $(srcdir)/H2OI95.pc.in $(srcdir)/Makefile.in
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 ACLOCAL = @ACLOCAL@
 AMTAR = @AMTAR@
@@ -349,7 +349,7 @@ libH2OI95_la_SOURCES = \
     wrotab.f
 
 libH2OI95_la_LDFLAGS = -version-info 0:118:0
-pkgconfig_DATA = libH2OI95.pc
+pkgconfig_DATA = H2OI95.pc
 all: all-am
 
 .SUFFIXES:
@@ -383,7 +383,7 @@ $(top_srcdir)/configure:  $(am__configure_deps)
 $(ACLOCAL_M4):  $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(am__aclocal_m4_deps):
-libH2OI95.pc: $(top_builddir)/config.status $(srcdir)/libH2OI95.pc.in
+H2OI95.pc: $(top_builddir)/config.status $(srcdir)/H2OI95.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
 
 install-libLTLIBRARIES: $(lib_LTLIBRARIES)

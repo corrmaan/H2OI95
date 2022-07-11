@@ -26,6 +26,6 @@ AC_CONFIG_TESTDIR([tests])
 AC_CONFIG_FILES([Makefile
                  src/Makefile
                  src/libH2OI95/Makefile
-                 src/libH2OI95/libH2OI95.pc
+                 src/libH2OI95/H2OI95.pc
                  tests/Makefile])
 AC_OUTPUT
